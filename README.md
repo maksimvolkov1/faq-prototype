@@ -19,15 +19,16 @@ Ziel ist es, mithilfe von Methoden des Natural Language Processing (NLP) wiederk
 ## 📁 Projektstruktur
 
 
+```text
 faq-prototyp/
 │
-├── src/ # Hauptlogik (Clustering, FAQ-Generierung, etc.)
-├── configs/ # Konfigurationsdateien
-├── data/ # Eingabedaten (Supporttickets)
-├── outputs/ # Generierte Ergebnisse (Cluster, FAQ, Reports)
+├── src/         # Hauptlogik (Clustering, FAQ-Generierung, etc.)
+├── configs/     # Konfigurationsdateien
+├── data/        # Eingabedaten (Supporttickets)
+├── outputs/     # Generierte Ergebnisse (Cluster, FAQ, Reports)
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
