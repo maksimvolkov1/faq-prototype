@@ -1,0 +1,678 @@
+[
+  {
+    "faq_id": "FAQ-000",
+    "cluster_id": 0,
+    "topic_label": "Drucker: druck / druckt / pdf",
+    "keywords": [
+      "druck",
+      "druckt",
+      "pdf",
+      "ausdrucke",
+      "schlechte"
+    ],
+    "question": "Warum druckt mein PDF langsam oder gar nicht?",
+    "answer_structured": {
+      "short_solution": "Langsame Druckzeiten von PDFs können auf Probleme mit der Bilddruckfunktion, dem Druckertreiber oder blockierten Jobs zurückzuführen sein. Schlechte Druckqualität kann durch Tonerprobleme oder verschmutzte Rollen verursacht werden.",
+      "steps": [
+        "Teste eine kleine Testseite.",
+        "Probiere einen anderen Druckertreiber (z.B. PCL6/Universal-Treiber).",
+        "Starte die Reinigungs-/Kalibrierungsfunktion des Druckers (Menü -> Wartung).",
+        "Drucke eine interne Testseite."
+      ],
+      "notes": [
+        "Probleme mit PDFs können durch \"Als Bild drucken\" verursacht werden.",
+        "Schwarze Streifen können auf Toner/Drum oder verschmutzte Rollen hindeuten."
+      ],
+      "support": [
+        "Überprüfe die Wartungsfunktionen des Druckers.",
+        "Überprüfe den Print-Log mit Dokumenttyp und Uhrzeit."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Langsame Druckzeiten von PDFs können auf Probleme mit der Bilddruckfunktion, dem Druckertreiber oder blockierten Jobs zurückzuführen sein. Schlechte Druckqualität kann durch Tonerprobleme oder verschmutzte Rollen verursacht werden.\n\n**Schritte:**\n1. Teste eine kleine Testseite.\n2. Probiere einen anderen Druckertreiber (z.B. PCL6/Universal-Treiber).\n3. Starte die Reinigungs-/Kalibrierungsfunktion des Druckers (Menü -> Wartung).\n4. Drucke eine interne Testseite.\n\n**Hinweise:**\n- Probleme mit PDFs können durch \"Als Bild drucken\" verursacht werden.\n- Schwarze Streifen können auf Toner/Drum oder verschmutzte Rollen hindeuten.\n\n**Support:**\n- Überprüfe die Wartungsfunktionen des Druckers.\n- Überprüfe den Print-Log mit Dokumenttyp und Uhrzeit.",
+    "supporting_ticket_ids": [
+      "TCK-0213",
+      "TCK-0202",
+      "TCK-0211"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum druckt mein PDF langsam oder gar nicht?",
+      "answer": {
+        "short_solution": "Langsame Druckzeiten von PDFs können auf Probleme mit der Bilddruckfunktion, dem Druckertreiber oder blockierten Jobs zurückzuführen sein. Schlechte Druckqualität kann durch Tonerprobleme oder verschmutzte Rollen verursacht werden.",
+        "steps": [
+          "Teste eine kleine Testseite.",
+          "Probiere einen anderen Druckertreiber (z.B. PCL6/Universal-Treiber).",
+          "Starte die Reinigungs-/Kalibrierungsfunktion des Druckers (Menü -> Wartung).",
+          "Drucke eine interne Testseite."
+        ],
+        "notes": [
+          "Probleme mit PDFs können durch \"Als Bild drucken\" verursacht werden.",
+          "Schwarze Streifen können auf Toner/Drum oder verschmutzte Rollen hindeuten."
+        ],
+        "support": [
+          "Überprüfe die Wartungsfunktionen des Druckers.",
+          "Überprüfe den Print-Log mit Dokumenttyp und Uhrzeit."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-001",
+    "cluster_id": 1,
+    "topic_label": "Performance: nach / update / voll",
+    "keywords": [
+      "nach",
+      "update",
+      "voll",
+      "fast",
+      "fast voll"
+    ],
+    "question": "Warum ist meine Festplatte C: nach einem Update voll?",
+    "answer_structured": {
+      "short_solution": "Nach größeren Updates wird oft ein Ordner namens Windows.old erstellt. Dieser kann über die Datenträgerbereinigung entfernt werden.",
+      "steps": [
+        "Öffne die Datenträgerbereinigung (Speicher -> Temporäre Dateien).",
+        "Wähle 'Vorherige Windows-Installation(en)' aus.",
+        "Starte den Computer neu."
+      ],
+      "notes": [
+        "Warte nach dem Update ein paar Tage, bis alles stabil läuft, bevor du den Ordner löschst.",
+        "Wenn du unsicher bist, kann der Ordner automatisch entfernt werden."
+      ],
+      "support": [
+        "Die Datenträgerbereinigung löscht temporäre Dateien und vorherige Windows-Installationen."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Nach größeren Updates wird oft ein Ordner namens Windows.old erstellt. Dieser kann über die Datenträgerbereinigung entfernt werden.\n\n**Schritte:**\n1. Öffne die Datenträgerbereinigung (Speicher -> Temporäre Dateien).\n2. Wähle 'Vorherige Windows-Installation(en)' aus.\n3. Starte den Computer neu.\n\n**Hinweise:**\n- Warte nach dem Update ein paar Tage, bis alles stabil läuft, bevor du den Ordner löschst.\n- Wenn du unsicher bist, kann der Ordner automatisch entfernt werden.\n\n**Support:**\n- Die Datenträgerbereinigung löscht temporäre Dateien und vorherige Windows-Installationen.",
+    "supporting_ticket_ids": [
+      "TCK-0606",
+      "TCK-0302",
+      "TCK-0313"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum ist meine Festplatte C: nach einem Update voll?",
+      "answer": {
+        "short_solution": "Nach größeren Updates wird oft ein Ordner namens Windows.old erstellt. Dieser kann über die Datenträgerbereinigung entfernt werden.",
+        "steps": [
+          "Öffne die Datenträgerbereinigung (Speicher -> Temporäre Dateien).",
+          "Wähle 'Vorherige Windows-Installation(en)' aus.",
+          "Starte den Computer neu."
+        ],
+        "notes": [
+          "Warte nach dem Update ein paar Tage, bis alles stabil läuft, bevor du den Ordner löschst.",
+          "Wenn du unsicher bist, kann der Ordner automatisch entfernt werden."
+        ],
+        "support": [
+          "Die Datenträgerbereinigung löscht temporäre Dateien und vorherige Windows-Installationen."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-002",
+    "cluster_id": 2,
+    "topic_label": "Lizenz: lizenz / office / pro",
+    "keywords": [
+      "lizenz",
+      "office",
+      "pro",
+      "lizenz abgelaufen",
+      "keinen"
+    ],
+    "question": "Ich habe keinen Zugriff auf ein neues Tool (z.B. Jira, Power BI Pro, Confluence). Was soll ich tun?",
+    "answer_structured": {
+      "short_solution": "Bitte senden Sie Informationen zum Projekt, benötigten Rollen/Dauer und holen Sie die notwendige Freigabe ein. Anschließend wird Ihnen die Lizenz zugewiesen.",
+      "steps": [
+        "Nennen Sie den Namen des Projekts, die benötigte Rolle (z.B. User/Admin) und die Begründung für den Lizenzbedarf.",
+        "Holen Sie die Freigabe von der Projektleitung oder Kostenstelle ein."
+      ],
+      "notes": [
+        "Nach der Zuweisung müssen Sie die Lizenz möglicherweise einmal ab- und wieder anmelden, um die Berechtigung zu aktivieren."
+      ],
+      "support": [
+        "Geben Sie den Space/Projekt und die verantwortliche Person bei Confluence an."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Bitte senden Sie Informationen zum Projekt, benötigten Rollen/Dauer und holen Sie die notwendige Freigabe ein. Anschließend wird Ihnen die Lizenz zugewiesen.\n\n**Schritte:**\n1. Nennen Sie den Namen des Projekts, die benötigte Rolle (z.B. User/Admin) und die Begründung für den Lizenzbedarf.\n2. Holen Sie die Freigabe von der Projektleitung oder Kostenstelle ein.\n\n**Hinweise:**\n- Nach der Zuweisung müssen Sie die Lizenz möglicherweise einmal ab- und wieder anmelden, um die Berechtigung zu aktivieren.\n\n**Support:**\n- Geben Sie den Space/Projekt und die verantwortliche Person bei Confluence an.",
+    "supporting_ticket_ids": [
+      "TCK-0409",
+      "TCK-0608",
+      "TCK-0410"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich habe keinen Zugriff auf ein neues Tool (z.B. Jira, Power BI Pro, Confluence). Was soll ich tun?",
+      "answer": {
+        "short_solution": "Bitte senden Sie Informationen zum Projekt, benötigten Rollen/Dauer und holen Sie die notwendige Freigabe ein. Anschließend wird Ihnen die Lizenz zugewiesen.",
+        "steps": [
+          "Nennen Sie den Namen des Projekts, die benötigte Rolle (z.B. User/Admin) und die Begründung für den Lizenzbedarf.",
+          "Holen Sie die Freigabe von der Projektleitung oder Kostenstelle ein."
+        ],
+        "notes": [
+          "Nach der Zuweisung müssen Sie die Lizenz möglicherweise einmal ab- und wieder anmelden, um die Berechtigung zu aktivieren."
+        ],
+        "support": [
+          "Geben Sie den Space/Projekt und die verantwortliche Person bei Confluence an."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-003",
+    "cluster_id": 3,
+    "topic_label": "Drucker: drucker / immer / wieder",
+    "keywords": [
+      "drucker",
+      "immer",
+      "wieder",
+      "immer wieder",
+      "drucke"
+    ],
+    "question": "Mein Standarddrucker wechselt immer wieder. Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Deaktiviere Windows verwalteten Standarddrucker und setze den gewünschten Drucker als Standard.",
+      "steps": [
+        "Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner)."
+      ],
+      "notes": [
+        "Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten."
+      ],
+      "support": []
+    },
+    "answer_markdown": "**Kurzlösung:** Deaktiviere Windows verwalteten Standarddrucker und setze den gewünschten Drucker als Standard.\n\n**Schritte:**\n1. Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).\n\n**Hinweise:**\n- Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten.",
+    "supporting_ticket_ids": [
+      "TCK-0207",
+      "TCK-0208",
+      "TCK-0210"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Mein Standarddrucker wechselt immer wieder. Was kann ich tun?",
+      "answer": {
+        "short_solution": "Deaktiviere Windows verwalteten Standarddrucker und setze den gewünschten Drucker als Standard.",
+        "steps": [
+          "Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner)."
+        ],
+        "notes": [
+          "Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten."
+        ],
+        "support": []
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-004",
+    "cluster_id": 4,
+    "topic_label": "Scannen: mail / scan to / to mail",
+    "keywords": [
+      "mail",
+      "scan to",
+      "to mail",
+      "scan"
+    ],
+    "question": "Scan-to-Mail funktioniert nicht oder sendet an die falsche Adresse.",
+    "answer_structured": {
+      "short_solution": "Überprüfen Sie die Empfängeradresse, die SMTP-Konfiguration und die Geräteinstellungen.  Überprüfen Sie auch das Adressbuch.",
+      "steps": [
+        "Überprüfen Sie die ausgewählte Empfängeradresse.",
+        "Prüfen Sie, ob die E-Mail im Spam-Ordner liegt.",
+        "Überprüfen Sie die Gerätekonfiguration (SMTP-Relay, Account, TLS).",
+        "Überprüfen Sie das Adressbuch auf Standardeinträge oder alte Adressen."
+      ],
+      "notes": [
+        "Bitte geben Sie den Gerätenamen, Standort und die Uhrzeit des Scans an."
+      ],
+      "support": [
+        "Bei Problemen mit SMTP/Authentifizierung kontaktieren Sie den Support."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfen Sie die Empfängeradresse, die SMTP-Konfiguration und die Geräteinstellungen.  Überprüfen Sie auch das Adressbuch.\n\n**Schritte:**\n1. Überprüfen Sie die ausgewählte Empfängeradresse.\n2. Prüfen Sie, ob die E-Mail im Spam-Ordner liegt.\n3. Überprüfen Sie die Gerätekonfiguration (SMTP-Relay, Account, TLS).\n4. Überprüfen Sie das Adressbuch auf Standardeinträge oder alte Adressen.\n\n**Hinweise:**\n- Bitte geben Sie den Gerätenamen, Standort und die Uhrzeit des Scans an.\n\n**Support:**\n- Bei Problemen mit SMTP/Authentifizierung kontaktieren Sie den Support.",
+    "supporting_ticket_ids": [
+      "TCK-0205",
+      "TCK-0604",
+      "TCK-0212"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Scan-to-Mail funktioniert nicht oder sendet an die falsche Adresse.",
+      "answer": {
+        "short_solution": "Überprüfen Sie die Empfängeradresse, die SMTP-Konfiguration und die Geräteinstellungen.  Überprüfen Sie auch das Adressbuch.",
+        "steps": [
+          "Überprüfen Sie die ausgewählte Empfängeradresse.",
+          "Prüfen Sie, ob die E-Mail im Spam-Ordner liegt.",
+          "Überprüfen Sie die Gerätekonfiguration (SMTP-Relay, Account, TLS).",
+          "Überprüfen Sie das Adressbuch auf Standardeinträge oder alte Adressen."
+        ],
+        "notes": [
+          "Bitte geben Sie den Gerätenamen, Standort und die Uhrzeit des Scans an."
+        ],
+        "support": [
+          "Bei Problemen mit SMTP/Authentifizierung kontaktieren Sie den Support."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-005",
+    "cluster_id": 5,
+    "topic_label": "Netzwerk: proxy / laden / seiten",
+    "keywords": [
+      "proxy",
+      "laden",
+      "seiten",
+      "websites",
+      "externe"
+    ],
+    "question": "Warum kann ich bestimmte Websites nicht laden, und was bedeutet das mit dem Proxy?",
+    "answer_structured": {
+      "short_solution": "Überprüfe die Proxy-Einstellungen in deinem Browser und teste, ob ein manueller Proxy aktiv ist oder ob eine Erweiterung die Seiten blockiert.",
+      "steps": [
+        "Prüfe die Proxy-Einstellungen in Windows (Einstellungen -> Netzwerk & Internet -> Proxy).",
+        "Stelle sicher, dass der Proxy auf 'Automatisch' steht oder das Unternehmens-Skript genutzt wird.",
+        "Deaktiviere testweise manuelle Proxy-Einträge und starte den Browser neu.",
+        "Teste im Inkognito-Fenster.",
+        "Überprüfe, ob Browser-Erweiterungen (z.B. Adblocker) die Seiten blockieren."
+      ],
+      "notes": [
+        "Bei Problemen kann eine Deaktivierung der automatischen Proxy-Konfiguration helfen.",
+        "Prüfe die Erreichbarkeit des PAC-Servers, falls verwendet."
+      ],
+      "support": [
+        "Bitte gib bei Problemen die Umgebung (Büro/Homeoffice/VPN) und die betroffenen Domains sowie Fehlermeldungen an."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfe die Proxy-Einstellungen in deinem Browser und teste, ob ein manueller Proxy aktiv ist oder ob eine Erweiterung die Seiten blockiert.\n\n**Schritte:**\n1. Prüfe die Proxy-Einstellungen in Windows (Einstellungen -> Netzwerk & Internet -> Proxy).\n2. Stelle sicher, dass der Proxy auf 'Automatisch' steht oder das Unternehmens-Skript genutzt wird.\n3. Deaktiviere testweise manuelle Proxy-Einträge und starte den Browser neu.\n4. Teste im Inkognito-Fenster.\n5. Überprüfe, ob Browser-Erweiterungen (z.B. Adblocker) die Seiten blockieren.\n\n**Hinweise:**\n- Bei Problemen kann eine Deaktivierung der automatischen Proxy-Konfiguration helfen.\n- Prüfe die Erreichbarkeit des PAC-Servers, falls verwendet.\n\n**Support:**\n- Bitte gib bei Problemen die Umgebung (Büro/Homeoffice/VPN) und die betroffenen Domains sowie Fehlermeldungen an.",
+    "supporting_ticket_ids": [
+      "TCK-0609",
+      "TCK-0507",
+      "TCK-0512"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum kann ich bestimmte Websites nicht laden, und was bedeutet das mit dem Proxy?",
+      "answer": {
+        "short_solution": "Überprüfe die Proxy-Einstellungen in deinem Browser und teste, ob ein manueller Proxy aktiv ist oder ob eine Erweiterung die Seiten blockiert.",
+        "steps": [
+          "Prüfe die Proxy-Einstellungen in Windows (Einstellungen -> Netzwerk & Internet -> Proxy).",
+          "Stelle sicher, dass der Proxy auf 'Automatisch' steht oder das Unternehmens-Skript genutzt wird.",
+          "Deaktiviere testweise manuelle Proxy-Einträge und starte den Browser neu.",
+          "Teste im Inkognito-Fenster.",
+          "Überprüfe, ob Browser-Erweiterungen (z.B. Adblocker) die Seiten blockieren."
+        ],
+        "notes": [
+          "Bei Problemen kann eine Deaktivierung der automatischen Proxy-Konfiguration helfen.",
+          "Prüfe die Erreichbarkeit des PAC-Servers, falls verwendet."
+        ],
+        "support": [
+          "Bitte gib bei Problemen die Umgebung (Büro/Homeoffice/VPN) und die betroffenen Domains sowie Fehlermeldungen an."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-006",
+    "cluster_id": 6,
+    "topic_label": "Netzwerk: lan / funktioniert / lan wlan",
+    "keywords": [
+      "lan",
+      "funktioniert",
+      "lan wlan",
+      "verbunden",
+      "wlan"
+    ],
+    "question": "Mein LAN funktioniert nicht, nur WLAN. Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Bitte trenne die Dockingstation komplett, warte 10 Sekunden und schließe sie neu an. Prüfe Treiber/Firmware und teste einen anderen USB-C Port.",
+      "steps": [
+        "Trenne die Dockingstation (Strom + USB-C).",
+        "Warte 10 Sekunden.",
+        "Schließe die Dockingstation neu an.",
+        "Prüfe Treiber/Firmware der Dockingstation.",
+        "Teste einen anderen USB-C Port."
+      ],
+      "notes": [
+        "Wenn das LAN am gleichen Kabel ohne Dock funktioniert, liegt das Problem wahrscheinlich am Dock oder den Treibern.",
+        "Überprüfe die LAN-Kabelverbindung und die LEDs am Port/Adapter."
+      ],
+      "support": [
+        "Kontaktiere den Support, wenn das Problem weiterhin besteht. Bitte gib Raum/Portnummer und PC-Name an."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Bitte trenne die Dockingstation komplett, warte 10 Sekunden und schließe sie neu an. Prüfe Treiber/Firmware und teste einen anderen USB-C Port.\n\n**Schritte:**\n1. Trenne die Dockingstation (Strom + USB-C).\n2. Warte 10 Sekunden.\n3. Schließe die Dockingstation neu an.\n4. Prüfe Treiber/Firmware der Dockingstation.\n5. Teste einen anderen USB-C Port.\n\n**Hinweise:**\n- Wenn das LAN am gleichen Kabel ohne Dock funktioniert, liegt das Problem wahrscheinlich am Dock oder den Treibern.\n- Überprüfe die LAN-Kabelverbindung und die LEDs am Port/Adapter.\n\n**Support:**\n- Kontaktiere den Support, wenn das Problem weiterhin besteht. Bitte gib Raum/Portnummer und PC-Name an.",
+    "supporting_ticket_ids": [
+      "TCK-0505",
+      "TCK-0504",
+      "TCK-0510"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Mein LAN funktioniert nicht, nur WLAN. Was kann ich tun?",
+      "answer": {
+        "short_solution": "Bitte trenne die Dockingstation komplett, warte 10 Sekunden und schließe sie neu an. Prüfe Treiber/Firmware und teste einen anderen USB-C Port.",
+        "steps": [
+          "Trenne die Dockingstation (Strom + USB-C).",
+          "Warte 10 Sekunden.",
+          "Schließe die Dockingstation neu an.",
+          "Prüfe Treiber/Firmware der Dockingstation.",
+          "Teste einen anderen USB-C Port."
+        ],
+        "notes": [
+          "Wenn das LAN am gleichen Kabel ohne Dock funktioniert, liegt das Problem wahrscheinlich am Dock oder den Treibern.",
+          "Überprüfe die LAN-Kabelverbindung und die LEDs am Port/Adapter."
+        ],
+        "support": [
+          "Kontaktiere den Support, wenn das Problem weiterhin besteht. Bitte gib Raum/Portnummer und PC-Name an."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-007",
+    "cluster_id": 7,
+    "topic_label": "Stabilität: friert / beim / teams",
+    "keywords": [
+      "friert",
+      "beim",
+      "teams",
+      "hängen",
+      "outlook"
+    ],
+    "question": "Teams friert beim Start oder bei der Nutzung ein.",
+    "answer_structured": {
+      "short_solution": "Versuchen Sie, Teams zu beenden, den Cache zu löschen und Teams neu zu starten. Überprüfen Sie Updates, Add-ins und die Netzwerkverbindung.",
+      "steps": [
+        "Teams komplett beenden (Task-Manager)",
+        "Teams Cache/Local Storage löschen",
+        "Teams neu starten",
+        "Updates von Teams und Windows prüfen",
+        "Testweise die Web-Version nutzen"
+      ],
+      "notes": [
+        "Überprüfen Sie die Größe von E-Mails und Anhängen (Outlook).",
+        "Testen Sie den abgesicherten Modus von Outlook.",
+        "Überprüfen Sie Windows-Updates.",
+        "Testen Sie ohne VPN (falls verwendet).",
+        "Schließen Sie unnötige Programme.",
+        "Überprüfen Sie die WLAN-Verbindung oder testen Sie LAN/anderen Access Point.",
+        "Stellen Sie sicher, dass Teams aktualisiert ist.",
+        "Testen Sie mit nur einem Monitor (bei Verwendung mehrerer Monitore)."
+      ],
+      "support": [
+        "Bitte senden Sie Ihre Teams-Version, falls das Problem weiterhin besteht."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Versuchen Sie, Teams zu beenden, den Cache zu löschen und Teams neu zu starten. Überprüfen Sie Updates, Add-ins und die Netzwerkverbindung.\n\n**Schritte:**\n1. Teams komplett beenden (Task-Manager)\n2. Teams Cache/Local Storage löschen\n3. Teams neu starten\n4. Updates von Teams und Windows prüfen\n5. Testweise die Web-Version nutzen\n\n**Hinweise:**\n- Überprüfen Sie die Größe von E-Mails und Anhängen (Outlook).\n- Testen Sie den abgesicherten Modus von Outlook.\n- Überprüfen Sie Windows-Updates.\n- Testen Sie ohne VPN (falls verwendet).\n- Schließen Sie unnötige Programme.\n- Überprüfen Sie die WLAN-Verbindung oder testen Sie LAN/anderen Access Point.\n- Stellen Sie sicher, dass Teams aktualisiert ist.\n- Testen Sie mit nur einem Monitor (bei Verwendung mehrerer Monitore).\n\n**Support:**\n- Bitte senden Sie Ihre Teams-Version, falls das Problem weiterhin besteht.",
+    "supporting_ticket_ids": [
+      "TCK-0303",
+      "TCK-0311",
+      "TCK-0308"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Teams friert beim Start oder bei der Nutzung ein.",
+      "answer": {
+        "short_solution": "Versuchen Sie, Teams zu beenden, den Cache zu löschen und Teams neu zu starten. Überprüfen Sie Updates, Add-ins und die Netzwerkverbindung.",
+        "steps": [
+          "Teams komplett beenden (Task-Manager)",
+          "Teams Cache/Local Storage löschen",
+          "Teams neu starten",
+          "Updates von Teams und Windows prüfen",
+          "Testweise die Web-Version nutzen"
+        ],
+        "notes": [
+          "Überprüfen Sie die Größe von E-Mails und Anhängen (Outlook).",
+          "Testen Sie den abgesicherten Modus von Outlook.",
+          "Überprüfen Sie Windows-Updates.",
+          "Testen Sie ohne VPN (falls verwendet).",
+          "Schließen Sie unnötige Programme.",
+          "Überprüfen Sie die WLAN-Verbindung oder testen Sie LAN/anderen Access Point.",
+          "Stellen Sie sicher, dass Teams aktualisiert ist.",
+          "Testen Sie mit nur einem Monitor (bei Verwendung mehrerer Monitore)."
+        ],
+        "support": [
+          "Bitte senden Sie Ihre Teams-Version, falls das Problem weiterhin besteht."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-008",
+    "cluster_id": 8,
+    "topic_label": "Netzwerk: wlan / langsam / verbindet",
+    "keywords": [
+      "wlan",
+      "langsam",
+      "verbindet",
+      "extrem langsam",
+      "extrem"
+    ],
+    "question": "Warum ist mein WLAN manchmal extrem langsam oder verbindet sich nicht?",
+    "answer_structured": {
+      "short_solution": "Versuchen Sie, sich neu zu verbinden, die IP-Adresse zu aktualisieren oder ein anderes WLAN-Kanal zu verwenden. Überprüfen Sie die Netzwerkeinstellungen und entfernen/ändern Sie Gast-WLAN-Profile.",
+      "steps": [
+        "Trennen und wiederherstellen der WLAN-Verbindung.",
+        "Führen Sie `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).",
+        "Überprüfen Sie die Netzwerkeinstellungen und entfernen Sie Gast-WLAN-Profile (Bekannte Netzwerke verwalten -> Entfernen).",
+        "Verbinden Sie sich manuell mit dem Firmennetz und speichern Sie die Zugangsdaten."
+      ],
+      "notes": [
+        "Die Langsamkeit kann durch Überlastung verursacht werden.",
+        "Der Wechsel zwischen Firmen- und Gastnetz kann die Ursache sein."
+      ],
+      "support": [
+        "Kontaktieren Sie den Support, wenn das Problem weiterhin besteht. Geben Sie Standort und Zeiten an."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Versuchen Sie, sich neu zu verbinden, die IP-Adresse zu aktualisieren oder ein anderes WLAN-Kanal zu verwenden. Überprüfen Sie die Netzwerkeinstellungen und entfernen/ändern Sie Gast-WLAN-Profile.\n\n**Schritte:**\n1. Trennen und wiederherstellen der WLAN-Verbindung.\n2. Führen Sie `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).\n3. Überprüfen Sie die Netzwerkeinstellungen und entfernen Sie Gast-WLAN-Profile (Bekannte Netzwerke verwalten -> Entfernen).\n4. Verbinden Sie sich manuell mit dem Firmennetz und speichern Sie die Zugangsdaten.\n\n**Hinweise:**\n- Die Langsamkeit kann durch Überlastung verursacht werden.\n- Der Wechsel zwischen Firmen- und Gastnetz kann die Ursache sein.\n\n**Support:**\n- Kontaktieren Sie den Support, wenn das Problem weiterhin besteht. Geben Sie Standort und Zeiten an.",
+    "supporting_ticket_ids": [
+      "TCK-0511",
+      "TCK-0503",
+      "TCK-0610"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum ist mein WLAN manchmal extrem langsam oder verbindet sich nicht?",
+      "answer": {
+        "short_solution": "Versuchen Sie, sich neu zu verbinden, die IP-Adresse zu aktualisieren oder ein anderes WLAN-Kanal zu verwenden. Überprüfen Sie die Netzwerkeinstellungen und entfernen/ändern Sie Gast-WLAN-Profile.",
+        "steps": [
+          "Trennen und wiederherstellen der WLAN-Verbindung.",
+          "Führen Sie `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).",
+          "Überprüfen Sie die Netzwerkeinstellungen und entfernen Sie Gast-WLAN-Profile (Bekannte Netzwerke verwalten -> Entfernen).",
+          "Verbinden Sie sich manuell mit dem Firmennetz und speichern Sie die Zugangsdaten."
+        ],
+        "notes": [
+          "Die Langsamkeit kann durch Überlastung verursacht werden.",
+          "Der Wechsel zwischen Firmen- und Gastnetz kann die Ursache sein."
+        ],
+        "support": [
+          "Kontaktieren Sie den Support, wenn das Problem weiterhin besteht. Geben Sie Standort und Zeiten an."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-009",
+    "cluster_id": 9,
+    "topic_label": "Account: passwort / link / reset",
+    "keywords": [
+      "passwort",
+      "link",
+      "reset",
+      "vergessen",
+      "passwort vergessen"
+    ],
+    "question": "Ich habe den Link zum Zurücksetzen meines Passworts erhalten, aber er funktioniert nicht oder ist abgelaufen. Was soll ich tun?",
+    "answer_structured": {
+      "short_solution": "Bitte starte den Prozess \"Passwort vergessen\" erneut und verwende den neuesten generierten Link. Überprüfe auch deinen Spam-Ordner und die Systemzeit deines PCs.",
+      "steps": [
+        "Starte den Prozess \"Passwort vergessen\".",
+        "Überprüfe deinen Spam-Ordner.",
+        "Überprüfe die Systemzeit deines PCs."
+      ],
+      "notes": [
+        "Reset-Links sind zeitlich begrenzt.",
+        "Verwende nur den letzten erhaltenen Link."
+      ],
+      "support": [
+        "Bei Problemen mit dem Empfang des Links, prüfe, ob du eine Firmen-E-Mail-Adresse verwendest. Private Postfächer funktionieren nicht.",
+        "Bitte gib den Zeitpunkt des Versuchs an."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Bitte starte den Prozess \"Passwort vergessen\" erneut und verwende den neuesten generierten Link. Überprüfe auch deinen Spam-Ordner und die Systemzeit deines PCs.\n\n**Schritte:**\n1. Starte den Prozess \"Passwort vergessen\".\n2. Überprüfe deinen Spam-Ordner.\n3. Überprüfe die Systemzeit deines PCs.\n\n**Hinweise:**\n- Reset-Links sind zeitlich begrenzt.\n- Verwende nur den letzten erhaltenen Link.\n\n**Support:**\n- Bei Problemen mit dem Empfang des Links, prüfe, ob du eine Firmen-E-Mail-Adresse verwendest. Private Postfächer funktionieren nicht.\n- Bitte gib den Zeitpunkt des Versuchs an.",
+    "supporting_ticket_ids": [
+      "TCK-0102",
+      "TCK-0601",
+      "TCK-0101"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich habe den Link zum Zurücksetzen meines Passworts erhalten, aber er funktioniert nicht oder ist abgelaufen. Was soll ich tun?",
+      "answer": {
+        "short_solution": "Bitte starte den Prozess \"Passwort vergessen\" erneut und verwende den neuesten generierten Link. Überprüfe auch deinen Spam-Ordner und die Systemzeit deines PCs.",
+        "steps": [
+          "Starte den Prozess \"Passwort vergessen\".",
+          "Überprüfe deinen Spam-Ordner.",
+          "Überprüfe die Systemzeit deines PCs."
+        ],
+        "notes": [
+          "Reset-Links sind zeitlich begrenzt.",
+          "Verwende nur den letzten erhaltenen Link."
+        ],
+        "support": [
+          "Bei Problemen mit dem Empfang des Links, prüfe, ob du eine Firmen-E-Mail-Adresse verwendest. Private Postfächer funktionieren nicht.",
+          "Bitte gib den Zeitpunkt des Versuchs an."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-010",
+    "cluster_id": 10,
+    "topic_label": "Security: mfa / code / login",
+    "keywords": [
+      "mfa",
+      "code",
+      "login",
+      "authenticator"
+    ],
+    "question": "Ich erhalte keinen MFA-Code oder der Code wird abgelehnt. Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Überprüfen Sie die Uhrzeit Ihres Smartphones, den Netzempfang und die hinterlegte Telefonnummer. Bei Problemen kann die MFA-Registrierung zurückgesetzt oder die Methode auf einen Authenticator umgestellt werden.",
+      "steps": [
+        "Überprüfen Sie den Netzempfang und stellen Sie sicher, dass der Flugmodus deaktiviert ist.",
+        "Stellen Sie sicher, dass die korrekte Telefonnummer hinterlegt ist.",
+        "Aktivieren Sie 'Datum/Uhrzeit automatisch' auf Ihrem Smartphone.",
+        "Synchronisieren Sie die Zeit in Ihrer Authenticator-App.",
+        "Starten Sie Ihr Smartphone neu und fordern Sie den Code erneut an.",
+        "Bei anhaltenden Problemen: Kontaktieren Sie den Support für die Rücksetzung der MFA-Registrierung (nach Identitätsprüfung) oder die Umstellung auf einen Authenticator."
+      ],
+      "notes": [
+        "Abweichende Uhrzeiten am Smartphone können zu Problemen mit den Codes führen.",
+        "Stellen Sie sicher, dass die hinterlegte Telefonnummer korrekt ist."
+      ],
+      "support": [
+        "MFA-Telefonnummer aktualisieren",
+        "MFA-Registrierung zurücksetzen",
+        "Authenticator-App verwenden",
+        "Temporären Backup-Code bereitstellen"
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfen Sie die Uhrzeit Ihres Smartphones, den Netzempfang und die hinterlegte Telefonnummer. Bei Problemen kann die MFA-Registrierung zurückgesetzt oder die Methode auf einen Authenticator umgestellt werden.\n\n**Schritte:**\n1. Überprüfen Sie den Netzempfang und stellen Sie sicher, dass der Flugmodus deaktiviert ist.\n2. Stellen Sie sicher, dass die korrekte Telefonnummer hinterlegt ist.\n3. Aktivieren Sie 'Datum/Uhrzeit automatisch' auf Ihrem Smartphone.\n4. Synchronisieren Sie die Zeit in Ihrer Authenticator-App.\n5. Starten Sie Ihr Smartphone neu und fordern Sie den Code erneut an.\n6. Bei anhaltenden Problemen: Kontaktieren Sie den Support für die Rücksetzung der MFA-Registrierung (nach Identitätsprüfung) oder die Umstellung auf einen Authenticator.\n\n**Hinweise:**\n- Abweichende Uhrzeiten am Smartphone können zu Problemen mit den Codes führen.\n- Stellen Sie sicher, dass die hinterlegte Telefonnummer korrekt ist.\n\n**Support:**\n- MFA-Telefonnummer aktualisieren\n- MFA-Registrierung zurücksetzen\n- Authenticator-App verwenden\n- Temporären Backup-Code bereitstellen",
+    "supporting_ticket_ids": [
+      "TCK-0113",
+      "TCK-0602",
+      "TCK-0108"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich erhalte keinen MFA-Code oder der Code wird abgelehnt. Was kann ich tun?",
+      "answer": {
+        "short_solution": "Überprüfen Sie die Uhrzeit Ihres Smartphones, den Netzempfang und die hinterlegte Telefonnummer. Bei Problemen kann die MFA-Registrierung zurückgesetzt oder die Methode auf einen Authenticator umgestellt werden.",
+        "steps": [
+          "Überprüfen Sie den Netzempfang und stellen Sie sicher, dass der Flugmodus deaktiviert ist.",
+          "Stellen Sie sicher, dass die korrekte Telefonnummer hinterlegt ist.",
+          "Aktivieren Sie 'Datum/Uhrzeit automatisch' auf Ihrem Smartphone.",
+          "Synchronisieren Sie die Zeit in Ihrer Authenticator-App.",
+          "Starten Sie Ihr Smartphone neu und fordern Sie den Code erneut an.",
+          "Bei anhaltenden Problemen: Kontaktieren Sie den Support für die Rücksetzung der MFA-Registrierung (nach Identitätsprüfung) oder die Umstellung auf einen Authenticator."
+        ],
+        "notes": [
+          "Abweichende Uhrzeiten am Smartphone können zu Problemen mit den Codes führen.",
+          "Stellen Sie sicher, dass die hinterlegte Telefonnummer korrekt ist."
+        ],
+        "support": [
+          "MFA-Telefonnummer aktualisieren",
+          "MFA-Registrierung zurücksetzen",
+          "Authenticator-App verwenden",
+          "Temporären Backup-Code bereitstellen"
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-011",
+    "cluster_id": 11,
+    "topic_label": "Performance: cpu / prozess / hohe cpu",
+    "keywords": [
+      "cpu",
+      "prozess",
+      "hohe cpu",
+      "hohe",
+      "task"
+    ],
+    "question": "Warum verbraucht ein Prozess meine CPU-Ressourcen?",
+    "answer_structured": {
+      "short_solution": "Hohe CPU-Auslastung kann durch verschiedene Prozesse verursacht werden, wie z.B. Windows Defender, OneDrive oder unbekannte Updater/Sync-Clients.",
+      "steps": [
+        "Überprüfe den Task-Manager auf CPU-intensive Prozesse.",
+        "Lasse Scans von Windows Defender oder andere Synchronisations-Clients (z.B. OneDrive) vollständig abschließen.",
+        "Pausiere testweise die Synchronisation von OneDrive für 10 Minuten."
+      ],
+      "notes": [
+        "Hohe CPU-Auslastung kann durch laufende Synchronisationen, Sync-Fehler oder Updates verursacht werden.",
+        "Ein Neustart des PCs kann oft vorübergehende Probleme beheben."
+      ],
+      "support": [
+        "Sende den exakten Prozessnamen und einen Screenshot aus dem Task-Manager (Details-Tab) an den Support, falls der Prozess unbekannt ist."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Hohe CPU-Auslastung kann durch verschiedene Prozesse verursacht werden, wie z.B. Windows Defender, OneDrive oder unbekannte Updater/Sync-Clients.\n\n**Schritte:**\n1. Überprüfe den Task-Manager auf CPU-intensive Prozesse.\n2. Lasse Scans von Windows Defender oder andere Synchronisations-Clients (z.B. OneDrive) vollständig abschließen.\n3. Pausiere testweise die Synchronisation von OneDrive für 10 Minuten.\n\n**Hinweise:**\n- Hohe CPU-Auslastung kann durch laufende Synchronisationen, Sync-Fehler oder Updates verursacht werden.\n- Ein Neustart des PCs kann oft vorübergehende Probleme beheben.\n\n**Support:**\n- Sende den exakten Prozessnamen und einen Screenshot aus dem Task-Manager (Details-Tab) an den Support, falls der Prozess unbekannt ist.",
+    "supporting_ticket_ids": [
+      "TCK-0305",
+      "TCK-0605",
+      "TCK-0306"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum verbraucht ein Prozess meine CPU-Ressourcen?",
+      "answer": {
+        "short_solution": "Hohe CPU-Auslastung kann durch verschiedene Prozesse verursacht werden, wie z.B. Windows Defender, OneDrive oder unbekannte Updater/Sync-Clients.",
+        "steps": [
+          "Überprüfe den Task-Manager auf CPU-intensive Prozesse.",
+          "Lasse Scans von Windows Defender oder andere Synchronisations-Clients (z.B. OneDrive) vollständig abschließen.",
+          "Pausiere testweise die Synchronisation von OneDrive für 10 Minuten."
+        ],
+        "notes": [
+          "Hohe CPU-Auslastung kann durch laufende Synchronisationen, Sync-Fehler oder Updates verursacht werden.",
+          "Ein Neustart des PCs kann oft vorübergehende Probleme beheben."
+        ],
+        "support": [
+          "Sende den exakten Prozessnamen und einen Screenshot aus dem Task-Manager (Details-Tab) an den Support, falls der Prozess unbekannt ist."
+        ]
+      }
+    }
+  }
+]

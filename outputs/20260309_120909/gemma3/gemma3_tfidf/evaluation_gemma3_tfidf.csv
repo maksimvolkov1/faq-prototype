@@ -1,0 +1,115 @@
+method,cluster_id,cluster_size,topic_label,question,answer_markdown,supporting_ticket_ids,example_ticket_ids,example_subjects,example_requests,cluster_coherence_1to5,question_quality_1to5,answer_quality_1to5,traceability_1to5,notes
+Gemma3 (TF-IDF),1,13,Performance: nach / update / voll,Warum ist meine Festplatte C: nach einem Update voll?,"**Kurzlösung:** Nach größeren Updates wird oft ein Ordner namens Windows.old erstellt. Dieser kann über die Datenträgerbereinigung entfernt werden.
+
+**Schritte:**
+1. Öffne die Datenträgerbereinigung (Speicher -> Temporäre Dateien).
+2. Wähle 'Vorherige Windows-Installation(en)' aus.
+3. Starte den Computer neu.
+
+**Hinweise:**
+- Warte nach dem Update ein paar Tage, bis alles stabil läuft, bevor du den Ordner löschst.
+- Wenn du unsicher bist, kann der Ordner automatisch entfernt werden.
+
+**Support:**
+- Die Datenträgerbereinigung löscht temporäre Dateien und vorherige Windows-Installationen.",TCK-0606;TCK-0302;TCK-0313,TCK-0103;TCK-0105;TCK-0112,Konto gesperrt nach Fehlversuchen | SSO-Fehler „Something went wrong“ beim Portal | SSO Fehler nach Browser-Update,Mein Konto ist nach mehreren Versuchen gesperrt. Ich brauche dringend Zugriff. | Beim Öffnen des Mitarbeiterportals kommt nur „Something went wrong“. Ich kann mich nicht anmelden. | Seit dem letzten Browser-Update kann ich mich im Portal nicht mehr anmelden.,,,,,
+Gemma3 (TF-IDF),2,12,Lizenz: lizenz / office / pro,"Ich habe keinen Zugriff auf ein neues Tool (z.B. Jira, Power BI Pro, Confluence). Was soll ich tun?","**Kurzlösung:** Bitte senden Sie Informationen zum Projekt, benötigten Rollen/Dauer und holen Sie die notwendige Freigabe ein. Anschließend wird Ihnen die Lizenz zugewiesen.
+
+**Schritte:**
+1. Nennen Sie den Namen des Projekts, die benötigte Rolle (z.B. User/Admin) und die Begründung für den Lizenzbedarf.
+2. Holen Sie die Freigabe von der Projektleitung oder Kostenstelle ein.
+
+**Hinweise:**
+- Nach der Zuweisung müssen Sie die Lizenz möglicherweise einmal ab- und wieder anmelden, um die Berechtigung zu aktivieren.
+
+**Support:**
+- Geben Sie den Space/Projekt und die verantwortliche Person bei Confluence an.",TCK-0409;TCK-0608;TCK-0410,TCK-0309;TCK-0401;TCK-0402,C: Laufwerk voll – Updates schlagen fehl | Office Lizenz abgelaufen – Apps im Nur-Lesen-Modus | Adobe Lizenz abgelaufen – Anmeldung erforderlich,"Mein C: Laufwerk ist voll und Windows-Updates brechen ab. | In Word/Excel steht, dass die Lizenz abgelaufen ist und alles ist nur noch „Nur Lesen“. | Adobe zeigt „Lizenz abgelaufen“ und ich kann keine PDFs mehr bearbeiten.",,,,,
+Gemma3 (TF-IDF),8,10,Netzwerk: wlan / langsam / verbindet,Warum ist mein WLAN manchmal extrem langsam oder verbindet sich nicht?,"**Kurzlösung:** Versuchen Sie, sich neu zu verbinden, die IP-Adresse zu aktualisieren oder ein anderes WLAN-Kanal zu verwenden. Überprüfen Sie die Netzwerkeinstellungen und entfernen/ändern Sie Gast-WLAN-Profile.
+
+**Schritte:**
+1. Trennen und wiederherstellen der WLAN-Verbindung.
+2. Führen Sie `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).
+3. Überprüfen Sie die Netzwerkeinstellungen und entfernen Sie Gast-WLAN-Profile (Bekannte Netzwerke verwalten -> Entfernen).
+4. Verbinden Sie sich manuell mit dem Firmennetz und speichern Sie die Zugangsdaten.
+
+**Hinweise:**
+- Die Langsamkeit kann durch Überlastung verursacht werden.
+- Der Wechsel zwischen Firmen- und Gastnetz kann die Ursache sein.
+
+**Support:**
+- Kontaktieren Sie den Support, wenn das Problem weiterhin besteht. Geben Sie Standort und Zeiten an.",TCK-0511;TCK-0503;TCK-0610,TCK-0301;TCK-0307;TCK-0312,PC sehr langsam nach Windows-Update | Datenträger bei 100% – alles langsam | PC langsam – viele Autostart-Programme,"Seit dem Windows-Update ist mein PC extrem langsam. Programme starten ewig. | Der PC ist extrem langsam, im Task-Manager steht Datenträger permanent bei 100%. | Mein Rechner ist seit Wochen langsam, besonders nach dem Hochfahren.",,,,,
+Gemma3 (TF-IDF),3,8,Drucker: drucker / immer / wieder,Mein Standarddrucker wechselt immer wieder. Was kann ich tun?,"**Kurzlösung:** Deaktiviere Windows verwalteten Standarddrucker und setze den gewünschten Drucker als Standard.
+
+**Schritte:**
+1. Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).
+
+**Hinweise:**
+- Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten.",TCK-0207;TCK-0208;TCK-0210,TCK-0104;TCK-0107;TCK-0204,Account wird immer wieder gesperrt | SSO Endlosschleife / Login-Loop | Druckstau / Fehler am Gerät,"Ich entsperre mich, aber nach kurzer Zeit ist der Account wieder gesperrt. | Ich werde beim Login immer wieder zurück zur Anmeldeseite geleitet (Loop). | Am Drucker steht „Paper Jam“, aber ich finde kein Papier. Drucken geht nicht mehr.",,,,,
+Gemma3 (TF-IDF),7,8,Stabilität: friert / beim / teams,Teams friert beim Start oder bei der Nutzung ein.,"**Kurzlösung:** Versuchen Sie, Teams zu beenden, den Cache zu löschen und Teams neu zu starten. Überprüfen Sie Updates, Add-ins und die Netzwerkverbindung.
+
+**Schritte:**
+1. Teams komplett beenden (Task-Manager)
+2. Teams Cache/Local Storage löschen
+3. Teams neu starten
+4. Updates von Teams und Windows prüfen
+5. Testweise die Web-Version nutzen
+
+**Hinweise:**
+- Überprüfen Sie die Größe von E-Mails und Anhängen (Outlook).
+- Testen Sie den abgesicherten Modus von Outlook.
+- Überprüfen Sie Windows-Updates.
+- Testen Sie ohne VPN (falls verwendet).
+- Schließen Sie unnötige Programme.
+- Überprüfen Sie die WLAN-Verbindung oder testen Sie LAN/anderen Access Point.
+- Stellen Sie sicher, dass Teams aktualisiert ist.
+- Testen Sie mit nur einem Monitor (bei Verwendung mehrerer Monitore).
+
+**Support:**
+- Bitte senden Sie Ihre Teams-Version, falls das Problem weiterhin besteht.",TCK-0303;TCK-0311;TCK-0308,TCK-0214;TCK-0303;TCK-0304,Druckwarteschlange lässt sich nicht löschen | Teams friert beim Start ein | Outlook friert beim Suchen ein,"Ich kann die Druckjobs nicht abbrechen, sie bleiben drin hängen. | Teams öffnet sich, aber reagiert nicht mehr (weißes Fenster). | Wenn ich in Outlook suche, hängt das Programm für mehrere Sekunden/minuten.",,,,,
+Gemma3 (TF-IDF),10,7,Security: mfa / code / login,Ich erhalte keinen MFA-Code oder der Code wird abgelehnt. Was kann ich tun?,"**Kurzlösung:** Überprüfen Sie die Uhrzeit Ihres Smartphones, den Netzempfang und die hinterlegte Telefonnummer. Bei Problemen kann die MFA-Registrierung zurückgesetzt oder die Methode auf einen Authenticator umgestellt werden.
+
+**Schritte:**
+1. Überprüfen Sie den Netzempfang und stellen Sie sicher, dass der Flugmodus deaktiviert ist.
+2. Stellen Sie sicher, dass die korrekte Telefonnummer hinterlegt ist.
+3. Aktivieren Sie 'Datum/Uhrzeit automatisch' auf Ihrem Smartphone.
+4. Synchronisieren Sie die Zeit in Ihrer Authenticator-App.
+5. Starten Sie Ihr Smartphone neu und fordern Sie den Code erneut an.
+6. Bei anhaltenden Problemen: Kontaktieren Sie den Support für die Rücksetzung der MFA-Registrierung (nach Identitätsprüfung) oder die Umstellung auf einen Authenticator.
+
+**Hinweise:**
+- Abweichende Uhrzeiten am Smartphone können zu Problemen mit den Codes führen.
+- Stellen Sie sicher, dass die hinterlegte Telefonnummer korrekt ist.
+
+**Support:**
+- MFA-Telefonnummer aktualisieren
+- MFA-Registrierung zurücksetzen
+- Authenticator-App verwenden
+- Temporären Backup-Code bereitstellen",TCK-0113;TCK-0602;TCK-0108,TCK-0108;TCK-0109;TCK-0110,MFA Code kommt nicht an (SMS) | Authenticator App verloren – neues Handy | MFA Push-Bestätigung kommt nicht,"Beim Login wird ein SMS-Code verlangt, aber ich bekomme keine SMS. | Ich habe ein neues Handy und komme nicht mehr in den Authenticator. Login ist blockiert. | Normalerweise bekomme ich eine Push-Anfrage, aber es passiert nichts.",,,,,
+Gemma3 (TF-IDF),9,5,Account: passwort / link / reset,"Ich habe den Link zum Zurücksetzen meines Passworts erhalten, aber er funktioniert nicht oder ist abgelaufen. Was soll ich tun?","**Kurzlösung:** Bitte starte den Prozess ""Passwort vergessen"" erneut und verwende den neuesten generierten Link. Überprüfe auch deinen Spam-Ordner und die Systemzeit deines PCs.
+
+**Schritte:**
+1. Starte den Prozess ""Passwort vergessen"".
+2. Überprüfe deinen Spam-Ordner.
+3. Überprüfe die Systemzeit deines PCs.
+
+**Hinweise:**
+- Reset-Links sind zeitlich begrenzt.
+- Verwende nur den letzten erhaltenen Link.
+
+**Support:**
+- Bei Problemen mit dem Empfang des Links, prüfe, ob du eine Firmen-E-Mail-Adresse verwendest. Private Postfächer funktionieren nicht.
+- Bitte gib den Zeitpunkt des Versuchs an.",TCK-0102;TCK-0601;TCK-0101,TCK-0101;TCK-0102;TCK-0114,Passwort vergessen – Login ins Intranet nicht möglich | Passwort-Reset Link kommt nicht an | Passwort-Regeln unklar – Reset scheitert,"Ich habe mein Passwort vergessen und komme nicht mehr ins Intranet. Können Sie mir helfen? | Ich habe „Passwort vergessen“ genutzt, aber es kommt keine Mail mit dem Link an. | Beim Zurücksetzen bekomme ich „Passwort entspricht nicht den Richtlinien“. Welche Regeln gelten?",,,,,
+Gemma3 (TF-IDF),6,5,Netzwerk: lan / funktioniert / lan wlan,"Mein LAN funktioniert nicht, nur WLAN. Was kann ich tun?","**Kurzlösung:** Bitte trenne die Dockingstation komplett, warte 10 Sekunden und schließe sie neu an. Prüfe Treiber/Firmware und teste einen anderen USB-C Port.
+
+**Schritte:**
+1. Trenne die Dockingstation (Strom + USB-C).
+2. Warte 10 Sekunden.
+3. Schließe die Dockingstation neu an.
+4. Prüfe Treiber/Firmware der Dockingstation.
+5. Teste einen anderen USB-C Port.
+
+**Hinweise:**
+- Wenn das LAN am gleichen Kabel ohne Dock funktioniert, liegt das Problem wahrscheinlich am Dock oder den Treibern.
+- Überprüfe die LAN-Kabelverbindung und die LEDs am Port/Adapter.
+
+**Support:**
+- Kontaktiere den Support, wenn das Problem weiterhin besteht. Bitte gib Raum/Portnummer und PC-Name an.",TCK-0505;TCK-0504;TCK-0510,TCK-0106;TCK-0404;TCK-0504,"SSO funktioniert in Edge, aber nicht in Chrome | Aktivierung mit Key funktioniert nicht | LAN funktioniert nicht nach Umzug","In Edge klappt die Anmeldung, in Chrome kommt „Something went wrong“. | Ich habe einen Produkt-Key, aber bei der Eingabe kommt „Ungültig“ oder „Kann nicht aktiviert werden“. | Ich bin umgezogen und seitdem geht mein LAN nicht mehr. WLAN geht.",,,,,

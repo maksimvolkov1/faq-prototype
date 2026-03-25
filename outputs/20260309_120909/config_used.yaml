@@ -1,0 +1,54 @@
+project:
+  name: faq-prototype
+  seed: 42
+paths:
+  input_tickets: data/tickets3.csv
+  outputs_dir: outputs
+input:
+  title_col: subject
+  body_col: request_text
+preprocessing:
+  lowercase: true
+  normalize_whitespace: true
+  remove_urls: true
+  remove_emails: true
+  remove_non_alnum: false
+  min_text_length: 20
+tfidf:
+  enabled: true
+  ngram_range:
+  - 1
+  - 2
+  max_features: 8000
+  min_df: 2
+  max_df: 0.8
+  sublinear_tf: true
+  use_stopwords: true
+  top_keywords: 6
+  top_examples: 3
+clustering:
+  method: kmeans
+  k: 12
+embeddings:
+  enabled: true
+  model_name: BAAI/bge-m3
+  batch_size: 8
+  normalize: true
+faq:
+  enabled: true
+  top_tickets: 3
+  top_keywords: 5
+  max_answer_bullets: 8
+llm_faq:
+  enabled: true
+  source: embeddings
+  model: gemma3:4b
+  base_url: http://localhost:11434
+  temperature: 0.2
+  request_timeout_sec: 120
+  fallback_to_extract: true
+  output_subdir: gemma3
+evaluation:
+  enabled: true
+  n_clusters: 8
+  examples_per_cluster: 3

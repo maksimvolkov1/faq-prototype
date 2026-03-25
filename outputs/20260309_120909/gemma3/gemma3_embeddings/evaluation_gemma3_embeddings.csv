@@ -1,0 +1,106 @@
+method,cluster_id,cluster_size,topic_label,question,answer_markdown,supporting_ticket_ids,example_ticket_ids,example_subjects,example_requests,cluster_coherence_1to5,question_quality_1to5,answer_quality_1to5,traceability_1to5,notes
+Gemma3 (Embeddings),1,12,Lizenz: aktivierung / office / aktiviert,"Ich erhalte beim Aktivieren von Office den Fehlercode 0xC004F074 oder die Meldung ""Account not eligible"". Was kann ich tun?","**Kurzlösung:** Überprüfe dein Konto, die Netzwerkverbindung und starte den PC neu.
+
+**Schritte:**
+1. Überprüfe Datum/Uhrzeit und Netzwerkverbindung (im Firmennetz oder VPN).
+2. Starte den PC neu.
+3. Melde dich mit deinem Firmenkonto ab und wieder an.
+4. Lösche gespeicherte Anmeldedaten im Windows-Anmeldeinformationsmanager (Office/Microsoft Einträge).
+
+**Hinweise:**
+- Das Problem kann durch eine fehlerhafte KMS-Kommunikation oder ein falsches Konto verursacht werden.
+
+**Support:**
+- Sende mir einen Screenshot, wenn das Problem weiterhin besteht.
+- Ich prüfe, ob KMS/Token oder die installierte Office-Edition nicht zur Lizenz passt.
+- Prüfen wir, ob mehrere Konten (privat/geschäftlich) parallel hinterlegt sind.",TCK-0412;TCK-0403;TCK-0607,TCK-0105;TCK-0106;TCK-0401,"SSO-Fehler „Something went wrong“ beim Portal | SSO funktioniert in Edge, aber nicht in Chrome | Office Lizenz abgelaufen – Apps im Nur-Lesen-Modus","Beim Öffnen des Mitarbeiterportals kommt nur „Something went wrong“. Ich kann mich nicht anmelden. | In Edge klappt die Anmeldung, in Chrome kommt „Something went wrong“. | In Word/Excel steht, dass die Lizenz abgelaufen ist und alles ist nur noch „Nur Lesen“.",,,,,
+Gemma3 (Embeddings),7,11,Netzwerk: lan / laden / kein,"Ich bin mit dem WLAN verbunden, aber kann keine Internetseiten laden. Was kann ich tun?","**Kurzlösung:** Trenne die WLAN-Verbindung und verbinde dich neu. Überprüfe Proxy-Einstellungen und führe die Netzwerkproblembehandlung durch.
+
+**Schritte:**
+1. Trenne die WLAN-Verbindung.
+2. Verbinde dich neu.
+3. Führe `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).
+4. Starte die Netzwerkproblembehandlung.
+5. Überprüfe Proxy-Einstellungen.
+
+**Hinweise:**
+- Überprüfe die WLAN-Details (IP-Adresse/Gateway) und sende einen Screenshot bei Bedarf.
+
+**Support:**
+- Kontaktiere den Support, wenn das Problem weiterhin besteht.",TCK-0503;TCK-0504;TCK-0505,TCK-0503;TCK-0504;TCK-0505,"WLAN verbunden, aber kein Internet | LAN funktioniert nicht nach Umzug | Dockingstation: LAN wird nicht erkannt","Ich bin mit dem WLAN verbunden, aber Internetseiten laden nicht. | Ich bin umgezogen und seitdem geht mein LAN nicht mehr. WLAN geht. | An der Dockingstation funktioniert LAN nicht, nur WLAN.",,,,,
+Gemma3 (Embeddings),10,8,Account: gesperrt / login / nach,Mein Konto wird nach dem Login (z.B. über VPN) oder nach mehreren fehlgeschlagenen Anmeldeversuchen gesperrt. Was kann ich tun?,"**Kurzlösung:** Überprüfe gespeicherte Passwörter auf Geräten wie Smartphone, Outlook oder VPN-Client und aktualisiere diese. Setze das Passwort bei Bedarf über ""Passwort vergessen"" zurück.
+
+**Schritte:**
+1. Ändere das Passwort auf allen Geräten, auf denen ein altes Passwort gespeichert ist.
+2. Aktualisiere die Anmeldedaten auf allen Geräten (Handy, Outlook, VPN-Client).
+3. Wenn du dir das Passwort nicht sicher bist, setze es über ""Passwort vergessen"" zurück.
+
+**Hinweise:**
+- Die Sperrung kann durch alte gespeicherte Passwörter verursacht werden.
+- Warte nach der Entsperrung 5 Minuten, bevor du dich erneut anmeldest.
+
+**Support:**
+- Kontaktiere den Support, wenn das Problem weiterhin besteht.",TCK-0115;TCK-0104;TCK-0103,TCK-0103;TCK-0104;TCK-0107,Konto gesperrt nach Fehlversuchen | Account wird immer wieder gesperrt | SSO Endlosschleife / Login-Loop,"Mein Konto ist nach mehreren Versuchen gesperrt. Ich brauche dringend Zugriff. | Ich entsperre mich, aber nach kurzer Zeit ist der Account wieder gesperrt. | Ich werde beim Login immer wieder zurück zur Anmeldeseite geleitet (Loop).",,,,,
+Gemma3 (Embeddings),3,7,Account: passwort / reset / bekomme,Ich habe mein Passwort vergessen und komme nicht mehr an meinen Reset-Link oder meine neue Zugangsdaten.,"**Kurzlösung:** Bitte prüfe deinen Spam-Ordner und die E-Mail-Adresse, die du für den Passwort-Reset verwendet hast. Bei Problemen kann das Passwort manuell zurückgesetzt werden.
+
+**Schritte:**
+1. Nutze die Funktion 'Passwort vergessen' auf der Login-Seite.
+2. Überprüfe deinen Spam-Ordner und die Quarantäne-Ordner deines E-Mail-Postfachs.
+3. Stelle sicher, dass du die korrekte Firmen-E-Mail-Adresse verwendest (kein privates Postfach).
+
+**Hinweise:**
+- Wenn du keinen Link erhältst, bestätige deine Identität (z.B. Personalnummer), damit das Passwort manuell zurückgesetzt werden kann.
+
+**Support:**
+- Bei Problemen mit dem Reset-Link kann der Reset-Link erneut ausgelöst werden.
+- Achte bei der Passwortwahl auf eine Mindestlänge und eine Mischung aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen. Vermeide leicht erratbare Wörter und verwende besser eine Passphrase.",TCK-0102;TCK-0114;TCK-0101,TCK-0101;TCK-0102;TCK-0108,Passwort vergessen – Login ins Intranet nicht möglich | Passwort-Reset Link kommt nicht an | MFA Code kommt nicht an (SMS),"Ich habe mein Passwort vergessen und komme nicht mehr ins Intranet. Können Sie mir helfen? | Ich habe „Passwort vergessen“ genutzt, aber es kommt keine Mail mit dem Link an. | Beim Login wird ein SMS-Code verlangt, aber ich bekomme keine SMS.",,,,,
+Gemma3 (Embeddings),11,7,Drucker: druck / druckt / drucker,Mein Drucker druckt sehr blass oder kaum lesbar / Der Drucker druckt langsam.,"**Kurzlösung:** Überprüfen Sie Tonerstand, rütteln Sie die Tonerkassette und führen Sie eine Kalibrierung durch. Testen Sie eine Testseite.
+
+**Schritte:**
+1. Prüfen Sie den Tonerstand am Gerät.
+2. Rütteln Sie die Tonerkassette vorsichtig (falls vorgesehen).
+3. Starten Sie eine Kalibrierung/Reinigung (Menü -> Wartung).
+4. Drucken Sie eine interne Testseite.
+
+**Hinweise:**
+- Bei langsamen Drucken kann es an 'Als Bild drucken' oder dem Treibermodus liegen.
+
+**Support:**
+- Kontaktieren Sie den Support, wenn die Testseite ebenfalls blass ist oder die Ursache nicht gefunden werden kann.",TCK-0603;TCK-0213;TCK-0201,TCK-0201;TCK-0202;TCK-0210,Drucker druckt nur leere Seiten | Druck mit Streifen / schlechte Qualität | Drucker offline / nicht erreichbar,"Der Etagenprinter druckt seit heute nur leere Seiten, egal welches Dokument. | Ausdrucke haben seit gestern schwarze Streifen über die Seite. | Windows zeigt den Drucker als „Offline“ an. Drucken geht gar nicht.",,,,,
+Gemma3 (Embeddings),2,7,Performance: nach / update / windows,Mein PC ist nach einem Windows-Update sehr langsam. Was kann ich tun?,"**Kurzlösung:** Lasse den PC nach dem Update 30-60 Minuten am Strom und im WLAN/LAN laufen. Überprüfe den Task-Manager auf ressourcenintensive Prozesse.
+
+**Schritte:**
+1. Lasse den PC 30-60 Minuten am Strom und im WLAN/LAN laufen.
+2. Starte den PC neu.
+3. Überprüfe im Task-Manager, ob ""Windows Modules Installer"" oder ""Antimalware Service Executable"" viel Last verursachen.
+4. Schließe testweise große Programme und starte Teams/Browser neu.
+
+**Hinweise:**
+- Hintergrundprozesse wie Indexierung oder Defender können die Performance beeinträchtigen.
+- Der Ordner Windows.old kann nach größeren Updates entstehen und sollte über die Datenträgerbereinigung entfernt werden.
+
+**Support:**
+- Bitte sende einen Screenshot vom Task-Manager (CPU/RAM/Datenträger), wenn das Problem weiterhin besteht.",TCK-0301;TCK-0606;TCK-0313,TCK-0301;TCK-0302;TCK-0304,PC sehr langsam nach Windows-Update | PC hängt nach Login / schwarzer Bildschirm kurz | Outlook friert beim Suchen ein,"Seit dem Windows-Update ist mein PC extrem langsam. Programme starten ewig. | Nach dem Anmelden bleibt der Bildschirm lange schwarz und der Desktop lädt sehr spät. | Wenn ich in Outlook suche, hängt das Programm für mehrere Sekunden/minuten.",,,,,
+Gemma3 (Embeddings),6,7,Lizenz: lizenz / pro / keinen,Wie beantworte ich eine Anfrage nach einer Lizenz für ein neues Tool?,"**Kurzlösung:** Bitte geben Sie Projektname, benötigte Rolle, Begründung und Freigabe durch die Projektleitung an.
+
+**Schritte:**
+1. Senden Sie Projektname, benötigte Rolle (z. B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung.
+
+**Hinweise:**
+- Nach Erhalt der Informationen kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen.
+
+**Support:**
+- Sie erhalten eine Bestätigung, sobald die Zuweisung aktiv ist.",TCK-0409;TCK-0608;TCK-0410,TCK-0402;TCK-0409;TCK-0410,Adobe Lizenz abgelaufen – Anmeldung erforderlich | Lizenz für neues Tool anfragen (Jira) | Lizenz für neues Tool anfragen (Confluence),"Adobe zeigt „Lizenz abgelaufen“ und ich kann keine PDFs mehr bearbeiten. | Ich brauche eine Jira-Lizenz für das Projekt, aktuell habe ich keinen Zugriff. | Ich soll Dokumentation in Confluence pflegen, aber ich habe keinen Zugang.",,,,,
+Gemma3 (Embeddings),5,6,Drucker: drucker / drucke / immer,Warum druckt mein Drucker manchmal ein falsches Papierformat (z.B. A3 statt A4)?,"**Kurzlösung:** Überprüfe die Druckeinstellungen im Druckdialog und im Druckertreiber. Stelle sicher, dass das Papierformat korrekt eingestellt ist und dass das Druckerfach A4 enthält.
+
+**Schritte:**
+1. Prüfe das Papierformat (A4) im Druckdialog.
+2. Prüfe die Standardpapiergröße im Druckertreiber.
+3. Stelle sicher, dass das Druckerfach A4 enthält.
+4. Sende einen Screenshot der Druckeinstellungen, falls nötig.
+
+**Hinweise:**
+- Oft ist in der Vorlage A3 gespeichert.
+
+**Support:**
+- Keine zusätzlichen Support-Aktionen erforderlich.",TCK-0208;TCK-0207;TCK-0209,TCK-0203;TCK-0204;TCK-0207,Druckauftrag hängt in Warteschlange | Druckstau / Fehler am Gerät | Standarddrucker verstellt sich ständig,"Mein Dokument bleibt im Status „Wird gedruckt“, aber es passiert nichts. | Am Drucker steht „Paper Jam“, aber ich finde kein Papier. Drucken geht nicht mehr. | Mein Standarddrucker springt immer wieder auf einen anderen Drucker.",,,,,

@@ -1,0 +1,13 @@
+faq_id,cluster_id,topic_label,question,supporting_ticket_ids
+FAQ-000,0,Drucker: druck / druckt / pdf,Druck dauert extrem lange?,TCK-0213;TCK-0202;TCK-0211
+FAQ-001,1,Performance: nach / update / voll,C: voll wegen Windows.old nach Update?,TCK-0606;TCK-0302;TCK-0313
+FAQ-002,2,Lizenz: lizenz / office / pro,Lizenz für neues Tool anfragen (Jira)?,TCK-0409;TCK-0608;TCK-0410
+FAQ-003,3,Drucker: drucker / immer / wieder,Standarddrucker verstellt sich ständig?,TCK-0207;TCK-0208;TCK-0210
+FAQ-004,4,Scannen: mail / scan to / to mail,Scanner sendet nicht an E-Mail?,TCK-0205;TCK-0604;TCK-0212
+FAQ-005,5,Netzwerk: proxy / laden / seiten,Proxy/PAC: automatische Konfiguration nicht erreichbar?,TCK-0609;TCK-0507;TCK-0512
+FAQ-006,6,Netzwerk: lan / funktioniert / lan wlan,Dockingstation: LAN wird nicht erkannt?,TCK-0505;TCK-0504;TCK-0510
+FAQ-007,7,Stabilität: friert / beim / teams,Teams friert beim Start ein?,TCK-0303;TCK-0311;TCK-0308
+FAQ-008,8,Netzwerk: wlan / langsam / verbindet,WLAN langsam zu Stoßzeiten?,TCK-0511;TCK-0503;TCK-0610
+FAQ-009,9,Account: passwort / link / reset,Passwort-Reset Link kommt nicht an?,TCK-0102;TCK-0601;TCK-0101
+FAQ-010,10,Security: mfa / code / login,MFA Nummer geändert – Login blockiert?,TCK-0113;TCK-0602;TCK-0108
+FAQ-011,11,Performance: cpu / prozess / hohe cpu,Hohe CPU: Prozess 'Antimalware Service Executable'?,TCK-0305;TCK-0605;TCK-0306

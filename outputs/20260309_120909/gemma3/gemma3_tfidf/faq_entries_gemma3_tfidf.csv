@@ -1,0 +1,13 @@
+faq_id,cluster_id,topic_label,question,supporting_ticket_ids,llm_model,llm_error
+FAQ-000,0,Drucker: druck / druckt / pdf,Warum druckt mein PDF langsam oder gar nicht?,TCK-0213;TCK-0202;TCK-0211,gemma3:4b,
+FAQ-001,1,Performance: nach / update / voll,Warum ist meine Festplatte C: nach einem Update voll?,TCK-0606;TCK-0302;TCK-0313,gemma3:4b,
+FAQ-002,2,Lizenz: lizenz / office / pro,"Ich habe keinen Zugriff auf ein neues Tool (z.B. Jira, Power BI Pro, Confluence). Was soll ich tun?",TCK-0409;TCK-0608;TCK-0410,gemma3:4b,
+FAQ-003,3,Drucker: drucker / immer / wieder,Mein Standarddrucker wechselt immer wieder. Was kann ich tun?,TCK-0207;TCK-0208;TCK-0210,gemma3:4b,
+FAQ-004,4,Scannen: mail / scan to / to mail,Scan-to-Mail funktioniert nicht oder sendet an die falsche Adresse.,TCK-0205;TCK-0604;TCK-0212,gemma3:4b,
+FAQ-005,5,Netzwerk: proxy / laden / seiten,"Warum kann ich bestimmte Websites nicht laden, und was bedeutet das mit dem Proxy?",TCK-0609;TCK-0507;TCK-0512,gemma3:4b,
+FAQ-006,6,Netzwerk: lan / funktioniert / lan wlan,"Mein LAN funktioniert nicht, nur WLAN. Was kann ich tun?",TCK-0505;TCK-0504;TCK-0510,gemma3:4b,
+FAQ-007,7,Stabilität: friert / beim / teams,Teams friert beim Start oder bei der Nutzung ein.,TCK-0303;TCK-0311;TCK-0308,gemma3:4b,
+FAQ-008,8,Netzwerk: wlan / langsam / verbindet,Warum ist mein WLAN manchmal extrem langsam oder verbindet sich nicht?,TCK-0511;TCK-0503;TCK-0610,gemma3:4b,
+FAQ-009,9,Account: passwort / link / reset,"Ich habe den Link zum Zurücksetzen meines Passworts erhalten, aber er funktioniert nicht oder ist abgelaufen. Was soll ich tun?",TCK-0102;TCK-0601;TCK-0101,gemma3:4b,
+FAQ-010,10,Security: mfa / code / login,Ich erhalte keinen MFA-Code oder der Code wird abgelehnt. Was kann ich tun?,TCK-0113;TCK-0602;TCK-0108,gemma3:4b,
+FAQ-011,11,Performance: cpu / prozess / hohe cpu,Warum verbraucht ein Prozess meine CPU-Ressourcen?,TCK-0305;TCK-0605;TCK-0306,gemma3:4b,

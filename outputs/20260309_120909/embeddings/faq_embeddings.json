@@ -1,0 +1,225 @@
+[
+  {
+    "faq_id": "FAQ-000",
+    "cluster_id": 0,
+    "topic_label": "Stabilität: friert / teams / beim",
+    "keywords": [
+      "friert",
+      "teams",
+      "beim",
+      "reagiert"
+    ],
+    "question": "Teams friert beim Start ein?",
+    "answer_markdown": "**Kurzlösung:** Stelle außerdem sicher, dass Teams aktualisiert ist.\n\n**Schritte:**\n1. Teams komplett beenden (Task-Manager) und den Cache löschen (Teams Cache/Local Storage).\n2. Wenn es wieder passiert, prüfe Updates von Teams und Windows.\n3. Alternativ kannst du testweise die Web-Version nutzen.\n4. Schließe unnötige Programme und prüfe, ob du über WLAN mit schwachem Signal verbunden bist.\n5. Teste wenn möglich LAN oder einen anderen Access Point.\n6. Stelle außerdem sicher, dass Teams aktualisiert ist.\n\n**Benötigte Angaben:**\n- Sende dem IT-Support bitte deine Teams-Version, falls es bleibt.\n\n**Hinweise:**\n- Danach Teams neu starten.",
+    "supporting_ticket_ids": [
+      "TCK-0303",
+      "TCK-0308",
+      "TCK-0311"
+    ]
+  },
+  {
+    "faq_id": "FAQ-001",
+    "cluster_id": 1,
+    "topic_label": "Lizenz: aktivierung / office / aktiviert",
+    "keywords": [
+      "aktivierung",
+      "office",
+      "aktiviert",
+      "produkt",
+      "beim"
+    ],
+    "question": "Office Aktivierung Fehlercode (0xC004F074)?",
+    "answer_markdown": "**Kurzlösung:** Prüfe Datum/Uhrzeit und Netzwerkverbindung (im Firmennetz oder VPN).\n\n**Ursache/Erklärung:**\n- Das ist oft ein Aktivierungs-/KMS-Kommunikationsproblem.\n- Das passiert meist, wenn ein falsches Konto verwendet wird (privat statt Firmenkonto) oder keine Lizenz zugewiesen ist.\n- Das deutet auf ein Token-/Cache-Problem hin.\n\n**Schritte:**\n1. Prüfe Datum/Uhrzeit und Netzwerkverbindung (im Firmennetz oder VPN).\n2. Melde dich komplett ab und nur mit dem Firmenkonto wieder an.\n\n**Benötigte Angaben:**\n- Wenn es bleibt, sende dem IT-Support den Screenshot; ich prüfe, ob KMS/Token oder die installierte Office-Edition nicht zur Lizenz passt.\n\n**Hinweise:**\n- Starte den PC neu und versuche es erneut.\n\n**Support:**\n- Der IT-Support prüft parallel, ob dir die passende Lizenz zugeordnet ist und weise sie ggf. zu.",
+    "supporting_ticket_ids": [
+      "TCK-0412",
+      "TCK-0403",
+      "TCK-0607"
+    ]
+  },
+  {
+    "faq_id": "FAQ-002",
+    "cluster_id": 2,
+    "topic_label": "Performance: nach / update / windows",
+    "keywords": [
+      "nach",
+      "update",
+      "windows",
+      "langsam"
+    ],
+    "question": "PC sehr langsam nach Windows-Update?",
+    "answer_markdown": "**Kurzlösung:** Starte danach neu.\n\n**Schritte:**\n1. Nach Updates laufen oft Hintergrundprozesse (Indexierung/Defender/Optimierung).\n2. Starte danach neu.\n3. Prüfe im Task-Manager, ob „Windows Modules Installer“/„Antimalware Service Executable“ viel Last verursacht.\n4. Wenn es morgen noch so ist, schicken mir bitte Screenshot vom Task-Manager (CPU/RAM/Datenträger).\n5. Windows.old entsteht nach größeren Updates und kann nach erfolgreichem Betrieb entfernt werden.\n6. Nutze „Datenträgerbereinigung“ bzw. „Speicher“ -> „Temporäre Dateien“ und wähle „Vorherige Windows-Installation(en)“.\n\n**Hinweise:**\n- Lass den PC 30–60 Minuten am Strom und im WLAN/LAN, damit alles fertig wird.\n- Danach neu starten.",
+    "supporting_ticket_ids": [
+      "TCK-0301",
+      "TCK-0606",
+      "TCK-0313"
+    ]
+  },
+  {
+    "faq_id": "FAQ-003",
+    "cluster_id": 3,
+    "topic_label": "Account: passwort / reset / bekomme",
+    "keywords": [
+      "passwort",
+      "reset",
+      "bekomme",
+      "link",
+      "login"
+    ],
+    "question": "Passwort-Reset Link kommt nicht an?",
+    "answer_markdown": "**Kurzlösung:** Prüfe Spam/Quarantäne und ob du die richtige Firmen-E-Mail-Adresse verwendet hast.\n\n**Schritte:**\n1. Prüfe Spam/Quarantäne und ob du die richtige Firmen-E-Mail-Adresse verwendet hast.\n2. Wenn du ein privates Postfach eingetragen hast, funktioniert es nicht.\n3. Teile mir bitte den Zeitpunkt des Versuchs mit.\n4. Das Passwort muss die Mindestlänge erfüllen und eine Mischung aus Groß-/Kleinbuchstaben, Zahl und Sonderzeichen enthalten.\n5. Vermeide Namen/leicht erratbare Wörter und nutze besser eine Passphrase (z.B. 4 Wörter + Zahl + Sonderzeichen).\n6. Wenn du mir sagst, welche Fehlermeldung genau kommt, kann ich prüfen, ob zusätzliche Regeln greifen.\n7. Nutze auf der Login-Seite die Funktion „Passwort vergessen“.\n\n**Support:**\n- Der IT-Support kann den Reset-Link erneut auslösen und das Postfach-Logging prüfen.",
+    "supporting_ticket_ids": [
+      "TCK-0102",
+      "TCK-0114",
+      "TCK-0101"
+    ]
+  },
+  {
+    "faq_id": "FAQ-004",
+    "cluster_id": 4,
+    "topic_label": "Netzwerk: wlan / verbindet / trennt",
+    "keywords": [
+      "wlan",
+      "verbindet",
+      "trennt",
+      "wlan verbindet"
+    ],
+    "question": "WLAN verbindet mit Gastnetz statt Firmennetz?",
+    "answer_markdown": "**Kurzlösung:** Entferne das Gast-WLAN-Profil („Bekannte Netzwerke verwalten“ -> Entfernen) oder setze die Priorität so, dass das Firmennetz bevorzugt wird.\n\n**Schritte:**\n1. Entferne das Gast-WLAN-Profil („Bekannte Netzwerke verwalten“ -> Entfernen) oder setze die Priorität so, dass das Firmennetz bevorzugt wird.\n2. Verbinde dich anschließend manuell mit dem Firmennetz und speichere die Zugangsdaten.\n3. Wenn ihr 802.1X nutzt, kann auch ein Zertifikat fehlen – dann richte ich das Profil neu ein.\n4. Entferne das WLAN-Profil komplett und verbinde neu.\n5. Prüfe, ob du das richtige Netz (z.B. Mitarbeiter vs. Gast) nutzt.\n6. Wenn ihr 802.1X verwendet, kann ein Zertifikat/Passwort-Problem vorliegen.\n7. Entferne das WLAN-Profil („Bekannte Netzwerke verwalten“ -> Entfernen) und verbinde dich neu.\n\n**Benötigte Angaben:**\n- Sende dem IT-Support bitte die genaue Meldung in Windows und ob es an anderen Geräten klappt.",
+    "supporting_ticket_ids": [
+      "TCK-0610",
+      "TCK-0513",
+      "TCK-0501"
+    ]
+  },
+  {
+    "faq_id": "FAQ-005",
+    "cluster_id": 5,
+    "topic_label": "Drucker: drucker / drucke / immer",
+    "keywords": [
+      "drucker",
+      "drucke",
+      "immer",
+      "hängen"
+    ],
+    "question": "Falsches Papierformat (A4/A3)?",
+    "answer_markdown": "**Kurzlösung:** Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).\n\n**Ursache/Erklärung:**\n- Oft ist in der Vorlage A3 gespeichert.\n\n**Schritte:**\n1. Prüfe im Druckdialog das Papierformat (A4) und im Druckertreiber die „Standardpapiergröße“.\n2. Stelle außerdem sicher, dass im Druckerfach tatsächlich A4 eingelegt ist und das Fach korrekt eingestellt ist.\n3. Wenn du willst, schick mir einen Screenshot der Druckeinstellungen.\n4. Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).\n5. Setze anschließend den gewünschten Drucker als Standard.\n6. Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten.\n7. Prüfe, ob du den richtigen Drucker ausgewählt hast und ob es ggf. mehrere ähnlich benannte Geräte gibt.",
+    "supporting_ticket_ids": [
+      "TCK-0208",
+      "TCK-0207",
+      "TCK-0209"
+    ]
+  },
+  {
+    "faq_id": "FAQ-006",
+    "cluster_id": 6,
+    "topic_label": "Lizenz: lizenz / pro / keinen",
+    "keywords": [
+      "lizenz",
+      "pro",
+      "keinen",
+      "benötigt",
+      "neues tool"
+    ],
+    "question": "Lizenz für neues Tool anfragen (Jira)?",
+    "answer_markdown": "**Kurzlösung:** Nach der Zuweisung bitte einmal ab- und wieder anmelden, damit die Berechtigung aktiv wird.\n\n**Schritte:**\n1. Nach der Zuweisung bitte einmal ab- und wieder anmelden, damit die Berechtigung aktiv wird.\n\n**Benötigte Angaben:**\n- Sende dem IT-Support: Projektname, benötigte Rolle (z.B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung.\n- Sende dem IT-Support kurz Zweck/Projekt, benötigte Dauer (temporär/ dauerhaft) und eine Freigabe durch Teamleitung/Kostenstelle.\n- Nenne Space/Projekt und die verantwortliche Person.\n\n**Hinweise:**\n- Danach kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen.\n- Du erhältst eine Bestätigung, sobald die Zuweisung aktiv ist.\n- Danach kann ich die Pro-Lizenz zuweisen.\n\n**Support:**\n- Der IT-Support kann dir eine Confluence-Lizenz zuweisen, sobald die Projektverantwortlichen bestätigt haben, dass du Zugriff benötigst.",
+    "supporting_ticket_ids": [
+      "TCK-0409",
+      "TCK-0608",
+      "TCK-0410"
+    ]
+  },
+  {
+    "faq_id": "FAQ-007",
+    "cluster_id": 7,
+    "topic_label": "Netzwerk: lan / laden / kein",
+    "keywords": [
+      "lan",
+      "laden",
+      "kein",
+      "verbunden",
+      "proxy"
+    ],
+    "question": "WLAN verbunden, aber kein Internet?",
+    "answer_markdown": "**Kurzlösung:** Trenne die WLAN-Verbindung und verbinde dich neu.\n\n**Schritte:**\n1. Trenne die WLAN-Verbindung und verbinde dich neu.\n2. Prüfe, ob eine Proxy-Einstellung aktiv ist.\n3. Prüfe, ob das LAN-Kabel richtig eingerastet ist und ob am Port/Adapter LEDs leuchten.\n4. Teste wenn möglich ein anderes Kabel oder einen anderen Netzwerkport.\n5. Trenne Dockingstation komplett (Strom + USB-C), warte 10 Sekunden und schließe alles neu an.\n\n**Benötigte Angaben:**\n- Wenn es weiter besteht, sende dem IT-Support einen Screenshot der WLAN-Details (IP-Adresse/Gateway).\n\n**Hinweise:**\n- Danach: `ipconfig /release` und `ipconfig /renew` (falls erlaubt) bzw. Netzwerkproblembehandlung starten.\n\n**Support:**\n- Der IT-Support kann den Switch-Port prüfen (VLAN/Port deaktiviert) – dafür brauche ich Raum/Portnummer (falls am Anschluss steht) und deine MAC-Adresse.",
+    "supporting_ticket_ids": [
+      "TCK-0503",
+      "TCK-0504",
+      "TCK-0505"
+    ]
+  },
+  {
+    "faq_id": "FAQ-008",
+    "cluster_id": 8,
+    "topic_label": "Performance: cpu / voll / task",
+    "keywords": [
+      "cpu",
+      "voll",
+      "task",
+      "task manager",
+      "manager"
+    ],
+    "question": "Hohe CPU: Prozess 'Antimalware Service Executable'?",
+    "answer_markdown": "**Kurzlösung:** Prüfe, ob gerade ein großes Laufwerk/Ordner neu synchronisiert wird.\n\n**Ursache/Erklärung:**\n- Das ist Windows Defender beim Scannen.\n- Das deutet meist auf eine laufende Synchronisation oder einen Sync-Fehler hin.\n\n**Schritte:**\n1. Lasse den Scan einmal fertig laufen (am besten am Strom).\n2. Prüfe, ob gerade ein großes Laufwerk/Ordner neu synchronisiert wird.\n3. Wenn es dauerhaft hoch bleibt, kann ich eine gezielte Ausschlussprüfung für bekannte Unternehmensordner prüfen (nach Policy) oder einen vollständigen Malware-Scan anstoßen.\n4. Prüfe das OneDrive-Symbol (Sync-Status) und pausiere testweise die Synchronisation für 10 Minuten.\n5. Wenn es hilft, prüfen wir, ob sehr große Dateien/Ordner oder viele kleine Dateien gesynct werden.\n\n**Hinweise:**\n- Ein Neustart von OneDrive (Beenden/Starten) behebt es oft ebenfalls.",
+    "supporting_ticket_ids": [
+      "TCK-0305",
+      "TCK-0605",
+      "TCK-0306"
+    ]
+  },
+  {
+    "faq_id": "FAQ-009",
+    "cluster_id": 9,
+    "topic_label": "Scannen: mail / scan to / to mail",
+    "keywords": [
+      "mail",
+      "scan to",
+      "to mail",
+      "scan"
+    ],
+    "question": "Scanner sendet nicht an E-Mail?",
+    "answer_markdown": "**Kurzlösung:** Prüfe, ob du die richtige Empfängeradresse auswählst und ob die Mail im Spam landet.\n\n**Ursache/Erklärung:**\n- Häufig liegt es an SMTP/Authentifizierung.\n- Häufig sind Absenderkonto/SMTP-Auth oder eine blockierte Empfängeradresse der Grund.\n\n**Schritte:**\n1. Prüfe, ob du die richtige Empfängeradresse auswählst und ob die Mail im Spam landet.\n2. Leite mir die Bounce-Mail (Fehlertext) weiter, damit wir Ursache/SMTP-Fehlercode sehen.\n\n**Benötigte Angaben:**\n- Nenne dem IT-Support bitte Gerätename/Standort und ungefähre Uhrzeit des Scanversuchs.\n- Nenne dem IT-Support bitte Gerätename/Standort und Uhrzeit des Scans.\n\n**Support:**\n- Der IT-Support prüft die Scan-to-Mail Konfiguration am Gerät (Relay/Account) und die Server-Logs.\n- Der IT-Support prüft die Gerätekonfiguration (SMTP-Relay, Account, TLS) und passe sie an.",
+    "supporting_ticket_ids": [
+      "TCK-0205",
+      "TCK-0604",
+      "TCK-0212"
+    ]
+  },
+  {
+    "faq_id": "FAQ-010",
+    "cluster_id": 10,
+    "topic_label": "Account: gesperrt / login / nach",
+    "keywords": [
+      "gesperrt",
+      "login",
+      "nach",
+      "konto",
+      "immer"
+    ],
+    "question": "Konto gesperrt nach VPN-Login?",
+    "answer_markdown": "**Kurzlösung:** Lösche im VPN-Client gespeicherte Zugangsdaten und melde dich neu mit dem aktuellen Passwort an.\n\n**Ursache/Erklärung:**\n- Wahrscheinlich nutzt der VPN-Client noch ein altes gespeichertes Passwort.\n- Das passiert häufig durch ein Gerät mit altem gespeicherten Passwort (z.B. Smartphone-Mail, Outlook, VPN).\n\n**Schritte:**\n1. Das Konto wurde entsperrt.\n2. Lösche im VPN-Client gespeicherte Zugangsdaten und melde dich neu mit dem aktuellen Passwort an.\n3. Wenn du weitere Geräte nutzt (Handy/Outlook), aktualisiere dort ebenfalls die Anmeldedaten, um erneute Sperren zu vermeiden.\n4. Ändere das Passwort einmal und aktualisiere es anschließend auf allen Geräten.\n\n**Support:**\n- Der IT-Support prüft parallel die Sperr-Quelle in den Logs und gebe dir Bescheid, welches Gerät die Fehlversuche verursacht.",
+    "supporting_ticket_ids": [
+      "TCK-0115",
+      "TCK-0104",
+      "TCK-0103"
+    ]
+  },
+  {
+    "faq_id": "FAQ-011",
+    "cluster_id": 11,
+    "topic_label": "Drucker: druck / druckt / drucker",
+    "keywords": [
+      "druck",
+      "druckt",
+      "drucker",
+      "pdf",
+      "ausdrucke"
+    ],
+    "question": "Drucker druckt sehr blass / kaum lesbar?",
+    "answer_markdown": "**Kurzlösung:** Stelle im Treiber testweise auf PCL6/Universal-Treiber um (falls vorhanden).\n\n**Schritte:**\n1. Prüfe den Tonerstand am Gerät und rüttle die Tonerkassette einmal vorsichtig (falls vom Hersteller vorgesehen).\n2. Starte anschließend eine Kalibrierung/Reinigung (Menü -> Wartung).\n3. Drucke eine interne Testseite.\n4. Wenn die Testseite ebenfalls blass ist, tauschen wir Toner/Drum bzw. melden Service.\n5. Teste einmal eine kleine Testseite.\n6. Wenn nur PDFs langsam sind, kann es an „Als Bild drucken“ oder am Treibermodus liegen.\n7. Stelle im Treiber testweise auf PCL6/Universal-Treiber um (falls vorhanden).\n\n**Support:**\n- Der IT-Support kann außerdem die Queue auf große Jobs prüfen, die alles blockieren.",
+    "supporting_ticket_ids": [
+      "TCK-0603",
+      "TCK-0213",
+      "TCK-0201"
+    ]
+  }
+]

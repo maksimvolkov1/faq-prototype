@@ -1,0 +1,228 @@
+[
+  {
+    "faq_id": "FAQ-000",
+    "cluster_id": 0,
+    "topic_label": "Drucker: druck / druckt / pdf",
+    "keywords": [
+      "druck",
+      "druckt",
+      "pdf",
+      "ausdrucke",
+      "schlechte"
+    ],
+    "question": "Druck dauert extrem lange?",
+    "answer_markdown": "**Kurzlösung:** Stelle im Treiber testweise auf PCL6/Universal-Treiber um (falls vorhanden).\n\n**Ursache/Erklärung:**\n- Das deutet oft auf Toner/Drum oder verschmutzte Rollen hin.\n\n**Schritte:**\n1. Teste einmal eine kleine Testseite.\n2. Wenn nur PDFs langsam sind, kann es an „Als Bild drucken“ oder am Treibermodus liegen.\n3. Stelle im Treiber testweise auf PCL6/Universal-Treiber um (falls vorhanden).\n4. Starte die Reinigungs-/Kalibrierungsfunktion am Drucker (Menü -> Wartung).\n5. Wenn möglich, drucke eine interne Testseite.\n\n**Hinweise:**\n- Falls die Streifen bleiben, tauschen wir Toner/Drum bzw. erstellen eine Störung für den Service.\n\n**Support:**\n- Der IT-Support kann außerdem die Queue auf große Jobs prüfen, die alles blockieren.",
+    "supporting_ticket_ids": [
+      "TCK-0213",
+      "TCK-0202",
+      "TCK-0211"
+    ]
+  },
+  {
+    "faq_id": "FAQ-001",
+    "cluster_id": 1,
+    "topic_label": "Performance: nach / update / voll",
+    "keywords": [
+      "nach",
+      "update",
+      "voll",
+      "fast",
+      "fast voll"
+    ],
+    "question": "C: voll wegen Windows.old nach Update?",
+    "answer_markdown": "**Kurzlösung:** Nutze „Datenträgerbereinigung“ bzw. „Speicher“ -> „Temporäre Dateien“ und wähle „Vorherige Windows-Installation(en)“.\n\n**Ursache/Erklärung:**\n- Das kann an Autostart-Programmen oder Profil-Skripten liegen.\n\n**Schritte:**\n1. Windows.old entsteht nach größeren Updates und kann nach erfolgreichem Betrieb entfernt werden.\n2. Nutze „Datenträgerbereinigung“ bzw. „Speicher“ -> „Temporäre Dateien“ und wähle „Vorherige Windows-Installation(en)“.\n3. Öffne Task-Manager -> Autostart und deaktiviere nicht benötigte Einträge.\n\n**Hinweise:**\n- Teste einmal mit Neustart und ohne VPN.\n- Danach neu starten.\n- Wenn du unsicher bist, warte ein paar Tage, bis alles stabil läuft, bevor du löschst.\n\n**Support:**\n- Der IT-Support prüft parallel, ob das Profil/Netzlaufwerke beim Login hängen.",
+    "supporting_ticket_ids": [
+      "TCK-0606",
+      "TCK-0302",
+      "TCK-0313"
+    ]
+  },
+  {
+    "faq_id": "FAQ-002",
+    "cluster_id": 2,
+    "topic_label": "Lizenz: lizenz / office / pro",
+    "keywords": [
+      "lizenz",
+      "office",
+      "pro",
+      "lizenz abgelaufen",
+      "keinen"
+    ],
+    "question": "Lizenz für neues Tool anfragen (Jira)?",
+    "answer_markdown": "**Kurzlösung:** Nach der Zuweisung bitte einmal ab- und wieder anmelden, damit die Berechtigung aktiv wird.\n\n**Schritte:**\n1. Nach der Zuweisung bitte einmal ab- und wieder anmelden, damit die Berechtigung aktiv wird.\n\n**Benötigte Angaben:**\n- Sende dem IT-Support: Projektname, benötigte Rolle (z.B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung.\n- Sende dem IT-Support kurz Zweck/Projekt, benötigte Dauer (temporär/ dauerhaft) und eine Freigabe durch Teamleitung/Kostenstelle.\n- Nenne Space/Projekt und die verantwortliche Person.\n\n**Hinweise:**\n- Danach kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen.\n- Du erhältst eine Bestätigung, sobald die Zuweisung aktiv ist.\n- Danach kann ich die Pro-Lizenz zuweisen.\n\n**Support:**\n- Der IT-Support kann dir eine Confluence-Lizenz zuweisen, sobald die Projektverantwortlichen bestätigt haben, dass du Zugriff benötigst.",
+    "supporting_ticket_ids": [
+      "TCK-0409",
+      "TCK-0608",
+      "TCK-0410"
+    ]
+  },
+  {
+    "faq_id": "FAQ-003",
+    "cluster_id": 3,
+    "topic_label": "Drucker: drucker / immer / wieder",
+    "keywords": [
+      "drucker",
+      "immer",
+      "wieder",
+      "immer wieder",
+      "drucke"
+    ],
+    "question": "Standarddrucker verstellt sich ständig?",
+    "answer_markdown": "**Kurzlösung:** Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).\n\n**Ursache/Erklärung:**\n- Oft ist in der Vorlage A3 gespeichert.\n\n**Schritte:**\n1. Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).\n2. Setze anschließend den gewünschten Drucker als Standard.\n3. Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten.\n4. Prüfe im Druckdialog das Papierformat (A4) und im Druckertreiber die „Standardpapiergröße“.\n5. Stelle außerdem sicher, dass im Druckerfach tatsächlich A4 eingelegt ist und das Fach korrekt eingestellt ist.\n6. Wenn du willst, schick mir einen Screenshot der Druckeinstellungen.\n7. Prüfe, ob der Drucker eingeschaltet ist und am Display eine IP-Adresse angezeigt wird.",
+    "supporting_ticket_ids": [
+      "TCK-0207",
+      "TCK-0208",
+      "TCK-0210"
+    ]
+  },
+  {
+    "faq_id": "FAQ-004",
+    "cluster_id": 4,
+    "topic_label": "Scannen: mail / scan to / to mail",
+    "keywords": [
+      "mail",
+      "scan to",
+      "to mail",
+      "scan"
+    ],
+    "question": "Scanner sendet nicht an E-Mail?",
+    "answer_markdown": "**Kurzlösung:** Prüfe, ob du die richtige Empfängeradresse auswählst und ob die Mail im Spam landet.\n\n**Ursache/Erklärung:**\n- Häufig liegt es an SMTP/Authentifizierung.\n- Häufig sind Absenderkonto/SMTP-Auth oder eine blockierte Empfängeradresse der Grund.\n\n**Schritte:**\n1. Prüfe, ob du die richtige Empfängeradresse auswählst und ob die Mail im Spam landet.\n2. Leite mir die Bounce-Mail (Fehlertext) weiter, damit wir Ursache/SMTP-Fehlercode sehen.\n\n**Benötigte Angaben:**\n- Nenne dem IT-Support bitte Gerätename/Standort und ungefähre Uhrzeit des Scanversuchs.\n- Nenne dem IT-Support bitte Gerätename/Standort und Uhrzeit des Scans.\n\n**Support:**\n- Der IT-Support prüft die Scan-to-Mail Konfiguration am Gerät (Relay/Account) und die Server-Logs.\n- Der IT-Support prüft die Gerätekonfiguration (SMTP-Relay, Account, TLS) und passe sie an.",
+    "supporting_ticket_ids": [
+      "TCK-0205",
+      "TCK-0604",
+      "TCK-0212"
+    ]
+  },
+  {
+    "faq_id": "FAQ-005",
+    "cluster_id": 5,
+    "topic_label": "Netzwerk: proxy / laden / seiten",
+    "keywords": [
+      "proxy",
+      "laden",
+      "seiten",
+      "websites",
+      "externe"
+    ],
+    "question": "Proxy/PAC: automatische Konfiguration nicht erreichbar?",
+    "answer_markdown": "**Kurzlösung:** Prüfe unter Windows -> Proxy, ob „Setupscript verwenden“ aktiv ist und ob die PAC-URL erreichbar ist.\n\n**Schritte:**\n1. Prüfe unter Windows -> Proxy, ob „Setupscript verwenden“ aktiv ist und ob die PAC-URL erreichbar ist.\n2. Teste einmal, die automatische Erkennung kurz zu deaktivieren und den Browser neu zu starten.\n3. Prüfe unter Windows „Proxy“ (Einstellungen -> Netzwerk & Internet -> Proxy), ob ein manueller Proxy gesetzt ist.\n4. In der Regel muss das auf „Automatisch“ stehen bzw. das Unternehmens-Skript nutzen.\n5. Deaktiviere testweise manuelle Einträge und starte den Browser neu.\n6. Wenn ihr einen Pflicht-Proxy habt, prüfe ich die korrekte Konfiguration/URL.\n\n**Benötigte Angaben:**\n- Nenne dem IT-Support bitte Standort (Büro/Homeoffice/VPN).\n\n**Hinweise:**\n- Wenn es danach funktioniert, liegt vermutlich ein Problem mit dem PAC-Server vor – ich prüfe die Erreichbarkeit/Logs.",
+    "supporting_ticket_ids": [
+      "TCK-0609",
+      "TCK-0507",
+      "TCK-0512"
+    ]
+  },
+  {
+    "faq_id": "FAQ-006",
+    "cluster_id": 6,
+    "topic_label": "Netzwerk: lan / funktioniert / lan wlan",
+    "keywords": [
+      "lan",
+      "funktioniert",
+      "lan wlan",
+      "verbunden",
+      "wlan"
+    ],
+    "question": "Dockingstation: LAN wird nicht erkannt?",
+    "answer_markdown": "**Kurzlösung:** Prüfe Treiber/Firmware der Dockingstation (falls eure IT das verteilt).\n\n**Schritte:**\n1. Trenne Dockingstation komplett (Strom + USB-C), warte 10 Sekunden und schließe alles neu an.\n2. Prüfe Treiber/Firmware der Dockingstation (falls eure IT das verteilt).\n3. Teste außerdem einen anderen USB-C Port.\n4. Wenn LAN am gleichen Kabel ohne Dock geht, liegt es sehr wahrscheinlich an Dock/Treiber.\n5. Prüfe, ob das LAN-Kabel richtig eingerastet ist und ob am Port/Adapter LEDs leuchten.\n6. Teste wenn möglich ein anderes Kabel oder einen anderen Netzwerkport.\n7. Prüfe zuerst, ob du im richtigen Netzwerk/VLAN bist (nach Umzug kann Port falsch gepatcht sein).\n\n**Support:**\n- Der IT-Support kann den Switch-Port prüfen (VLAN/Port deaktiviert) – dafür brauche ich Raum/Portnummer (falls am Anschluss steht) und deine MAC-Adresse.",
+    "supporting_ticket_ids": [
+      "TCK-0505",
+      "TCK-0504",
+      "TCK-0510"
+    ]
+  },
+  {
+    "faq_id": "FAQ-007",
+    "cluster_id": 7,
+    "topic_label": "Stabilität: friert / beim / teams",
+    "keywords": [
+      "friert",
+      "beim",
+      "teams",
+      "hängen",
+      "outlook"
+    ],
+    "question": "Teams friert beim Start ein?",
+    "answer_markdown": "**Kurzlösung:** Starte Outlook im abgesicherten Modus und teste ohne Add-ins.\n\n**Schritte:**\n1. Teams komplett beenden (Task-Manager) und den Cache löschen (Teams Cache/Local Storage).\n2. Wenn es wieder passiert, prüfe Updates von Teams und Windows.\n3. Alternativ kannst du testweise die Web-Version nutzen.\n4. Prüfe zuerst die Größe der Mail/Anhänge.\n5. Starte Outlook im abgesicherten Modus und teste ohne Add-ins.\n6. Wenn es weiter passiert: OST-Datei neu erstellen (Konto entfernen/neu hinzufügen) und Windows-Updates prüfen.\n\n**Benötigte Angaben:**\n- Sende dem IT-Support bitte deine Teams-Version, falls es bleibt.\n\n**Hinweise:**\n- Danach Teams neu starten.",
+    "supporting_ticket_ids": [
+      "TCK-0303",
+      "TCK-0311",
+      "TCK-0308"
+    ]
+  },
+  {
+    "faq_id": "FAQ-008",
+    "cluster_id": 8,
+    "topic_label": "Netzwerk: wlan / langsam / verbindet",
+    "keywords": [
+      "wlan",
+      "langsam",
+      "verbindet",
+      "extrem langsam",
+      "extrem"
+    ],
+    "question": "WLAN langsam zu Stoßzeiten?",
+    "answer_markdown": "**Kurzlösung:** Trenne die WLAN-Verbindung und verbinde dich neu.\n\n**Schritte:**\n1. Das klingt nach Überlast.\n2. Als Workaround: wenn möglich 5GHz nutzen oder kurz auf LAN wechseln.\n3. Trenne die WLAN-Verbindung und verbinde dich neu.\n4. Prüfe, ob eine Proxy-Einstellung aktiv ist.\n\n**Benötigte Angaben:**\n- Nenne Standort (Etage/Raum) und die Zeiten.\n- Wenn es weiter besteht, sende dem IT-Support einen Screenshot der WLAN-Details (IP-Adresse/Gateway).\n\n**Hinweise:**\n- Danach: `ipconfig /release` und `ipconfig /renew` (falls erlaubt) bzw. Netzwerkproblembehandlung starten.\n\n**Support:**\n- Der IT-Support prüft Auslastung des Access Points und ob ein Kanalwechsel/Load-Balancing nötig ist.",
+    "supporting_ticket_ids": [
+      "TCK-0511",
+      "TCK-0503",
+      "TCK-0610"
+    ]
+  },
+  {
+    "faq_id": "FAQ-009",
+    "cluster_id": 9,
+    "topic_label": "Account: passwort / link / reset",
+    "keywords": [
+      "passwort",
+      "link",
+      "reset",
+      "vergessen",
+      "passwort vergessen"
+    ],
+    "question": "Passwort-Reset Link kommt nicht an?",
+    "answer_markdown": "**Kurzlösung:** Prüfe Spam/Quarantäne und ob du die richtige Firmen-E-Mail-Adresse verwendet hast.\n\n**Schritte:**\n1. Prüfe Spam/Quarantäne und ob du die richtige Firmen-E-Mail-Adresse verwendet hast.\n2. Wenn du ein privates Postfach eingetragen hast, funktioniert es nicht.\n3. Teile mir bitte den Zeitpunkt des Versuchs mit.\n4. Reset-Links sind zeitlich begrenzt.\n5. Starte den Prozess „Passwort vergessen“ erneut und nutze den neuesten Link.\n6. Wenn du mehrere Mails bekommen hast, ist nur die letzte gültig.\n\n**Support:**\n- Der IT-Support kann den Reset-Link erneut auslösen und das Postfach-Logging prüfen.\n- Falls es weiterhin fehlschlägt, prüfe bitte die Systemzeit deines PCs und gib dem IT-Support den Zeitpunkt des Versuchs durch.",
+    "supporting_ticket_ids": [
+      "TCK-0102",
+      "TCK-0601",
+      "TCK-0101"
+    ]
+  },
+  {
+    "faq_id": "FAQ-010",
+    "cluster_id": 10,
+    "topic_label": "Security: mfa / code / login",
+    "keywords": [
+      "mfa",
+      "code",
+      "login",
+      "authenticator"
+    ],
+    "question": "MFA Nummer geändert – Login blockiert?",
+    "answer_markdown": "**Kurzlösung:** Aktiviere „Datum/Uhrzeit automatisch“ und öffne in der Authenticator-App (falls vorhanden) die Option „Zeitkorrektur/Synchronisieren“.\n\n**Ursache/Erklärung:**\n- Das passiert häufig bei abweichender Uhrzeit am Smartphone.\n\n**Schritte:**\n1. Aktiviere „Datum/Uhrzeit automatisch“ und öffne in der Authenticator-App (falls vorhanden) die Option „Zeitkorrektur/Synchronisieren“.\n2. Wenn es weiterhin nicht klappt, kann ich die MFA-Registrierung zurücksetzen, damit du sie neu einrichten kannst (nach Identitätsprüfung).\n3. Prüfe Netzempfang/Flugmodus und ob die Nummer korrekt hinterlegt ist.\n\n**Benötigte Angaben:**\n- Sende dem IT-Support die neue Nummer über den sicheren Kanal (nicht im Tickettext, falls euer Prozess das so vorsieht) und bestätige kurz deine Identität.\n\n**Hinweise:**\n- Danach richtest du MFA neu ein.\n- Danach erneut versuchen.\n\n**Support:**\n- Der IT-Support kann die hinterlegte MFA-Telefonnummer nach Identitätsprüfung aktualisieren oder die MFA-Registrierung zurücksetzen.",
+    "supporting_ticket_ids": [
+      "TCK-0113",
+      "TCK-0602",
+      "TCK-0108"
+    ]
+  },
+  {
+    "faq_id": "FAQ-011",
+    "cluster_id": 11,
+    "topic_label": "Performance: cpu / prozess / hohe cpu",
+    "keywords": [
+      "cpu",
+      "prozess",
+      "hohe cpu",
+      "hohe",
+      "task"
+    ],
+    "question": "Hohe CPU: Prozess 'Antimalware Service Executable'?",
+    "answer_markdown": "**Kurzlösung:** Prüfe, ob gerade ein großes Laufwerk/Ordner neu synchronisiert wird.\n\n**Ursache/Erklärung:**\n- Das ist Windows Defender beim Scannen.\n- Das deutet meist auf eine laufende Synchronisation oder einen Sync-Fehler hin.\n\n**Schritte:**\n1. Lasse den Scan einmal fertig laufen (am besten am Strom).\n2. Prüfe, ob gerade ein großes Laufwerk/Ordner neu synchronisiert wird.\n3. Wenn es dauerhaft hoch bleibt, kann ich eine gezielte Ausschlussprüfung für bekannte Unternehmensordner prüfen (nach Policy) oder einen vollständigen Malware-Scan anstoßen.\n4. Prüfe das OneDrive-Symbol (Sync-Status) und pausiere testweise die Synchronisation für 10 Minuten.\n5. Wenn es hilft, prüfen wir, ob sehr große Dateien/Ordner oder viele kleine Dateien gesynct werden.\n\n**Hinweise:**\n- Ein Neustart von OneDrive (Beenden/Starten) behebt es oft ebenfalls.",
+    "supporting_ticket_ids": [
+      "TCK-0305",
+      "TCK-0605",
+      "TCK-0306"
+    ]
+  }
+]

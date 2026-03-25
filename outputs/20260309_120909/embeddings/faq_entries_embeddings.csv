@@ -1,0 +1,13 @@
+faq_id,cluster_id,topic_label,question,supporting_ticket_ids
+FAQ-000,0,Stabilität: friert / teams / beim,Teams friert beim Start ein?,TCK-0303;TCK-0308;TCK-0311
+FAQ-001,1,Lizenz: aktivierung / office / aktiviert,Office Aktivierung Fehlercode (0xC004F074)?,TCK-0412;TCK-0403;TCK-0607
+FAQ-002,2,Performance: nach / update / windows,PC sehr langsam nach Windows-Update?,TCK-0301;TCK-0606;TCK-0313
+FAQ-003,3,Account: passwort / reset / bekomme,Passwort-Reset Link kommt nicht an?,TCK-0102;TCK-0114;TCK-0101
+FAQ-004,4,Netzwerk: wlan / verbindet / trennt,WLAN verbindet mit Gastnetz statt Firmennetz?,TCK-0610;TCK-0513;TCK-0501
+FAQ-005,5,Drucker: drucker / drucke / immer,Falsches Papierformat (A4/A3)?,TCK-0208;TCK-0207;TCK-0209
+FAQ-006,6,Lizenz: lizenz / pro / keinen,Lizenz für neues Tool anfragen (Jira)?,TCK-0409;TCK-0608;TCK-0410
+FAQ-007,7,Netzwerk: lan / laden / kein,"WLAN verbunden, aber kein Internet?",TCK-0503;TCK-0504;TCK-0505
+FAQ-008,8,Performance: cpu / voll / task,Hohe CPU: Prozess 'Antimalware Service Executable'?,TCK-0305;TCK-0605;TCK-0306
+FAQ-009,9,Scannen: mail / scan to / to mail,Scanner sendet nicht an E-Mail?,TCK-0205;TCK-0604;TCK-0212
+FAQ-010,10,Account: gesperrt / login / nach,Konto gesperrt nach VPN-Login?,TCK-0115;TCK-0104;TCK-0103
+FAQ-011,11,Drucker: druck / druckt / drucker,Drucker druckt sehr blass / kaum lesbar?,TCK-0603;TCK-0213;TCK-0201

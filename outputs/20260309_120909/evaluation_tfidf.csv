@@ -1,0 +1,125 @@
+method,cluster_id,cluster_size,topic_label,question,answer_markdown,supporting_ticket_ids,example_ticket_ids,example_subjects,example_requests,cluster_coherence_1to5,question_quality_1to5,answer_quality_1to5,traceability_1to5,notes
+TF-IDF,1,13,Performance: nach / update / voll,C: voll wegen Windows.old nach Update?,"**Kurzlösung:** Nutze „Datenträgerbereinigung“ bzw. „Speicher“ -> „Temporäre Dateien“ und wähle „Vorherige Windows-Installation(en)“.
+
+**Ursache/Erklärung:**
+- Das kann an Autostart-Programmen oder Profil-Skripten liegen.
+
+**Schritte:**
+1. Windows.old entsteht nach größeren Updates und kann nach erfolgreichem Betrieb entfernt werden.
+2. Nutze „Datenträgerbereinigung“ bzw. „Speicher“ -> „Temporäre Dateien“ und wähle „Vorherige Windows-Installation(en)“.
+3. Öffne Task-Manager -> Autostart und deaktiviere nicht benötigte Einträge.
+
+**Hinweise:**
+- Teste einmal mit Neustart und ohne VPN.
+- Danach neu starten.
+- Wenn du unsicher bist, warte ein paar Tage, bis alles stabil läuft, bevor du löschst.
+
+**Support:**
+- Der IT-Support prüft parallel, ob das Profil/Netzlaufwerke beim Login hängen.",TCK-0606;TCK-0302;TCK-0313,TCK-0103;TCK-0105;TCK-0112,Konto gesperrt nach Fehlversuchen | SSO-Fehler „Something went wrong“ beim Portal | SSO Fehler nach Browser-Update,Mein Konto ist nach mehreren Versuchen gesperrt. Ich brauche dringend Zugriff. | Beim Öffnen des Mitarbeiterportals kommt nur „Something went wrong“. Ich kann mich nicht anmelden. | Seit dem letzten Browser-Update kann ich mich im Portal nicht mehr anmelden.,,,,,
+TF-IDF,2,12,Lizenz: lizenz / office / pro,Lizenz für neues Tool anfragen (Jira)?,"**Kurzlösung:** Nach der Zuweisung bitte einmal ab- und wieder anmelden, damit die Berechtigung aktiv wird.
+
+**Schritte:**
+1. Nach der Zuweisung bitte einmal ab- und wieder anmelden, damit die Berechtigung aktiv wird.
+
+**Benötigte Angaben:**
+- Sende dem IT-Support: Projektname, benötigte Rolle (z.B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung.
+- Sende dem IT-Support kurz Zweck/Projekt, benötigte Dauer (temporär/ dauerhaft) und eine Freigabe durch Teamleitung/Kostenstelle.
+- Nenne Space/Projekt und die verantwortliche Person.
+
+**Hinweise:**
+- Danach kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen.
+- Du erhältst eine Bestätigung, sobald die Zuweisung aktiv ist.
+- Danach kann ich die Pro-Lizenz zuweisen.
+
+**Support:**
+- Der IT-Support kann dir eine Confluence-Lizenz zuweisen, sobald die Projektverantwortlichen bestätigt haben, dass du Zugriff benötigst.",TCK-0409;TCK-0608;TCK-0410,TCK-0309;TCK-0401;TCK-0402,C: Laufwerk voll – Updates schlagen fehl | Office Lizenz abgelaufen – Apps im Nur-Lesen-Modus | Adobe Lizenz abgelaufen – Anmeldung erforderlich,"Mein C: Laufwerk ist voll und Windows-Updates brechen ab. | In Word/Excel steht, dass die Lizenz abgelaufen ist und alles ist nur noch „Nur Lesen“. | Adobe zeigt „Lizenz abgelaufen“ und ich kann keine PDFs mehr bearbeiten.",,,,,
+TF-IDF,8,10,Netzwerk: wlan / langsam / verbindet,WLAN langsam zu Stoßzeiten?,"**Kurzlösung:** Trenne die WLAN-Verbindung und verbinde dich neu.
+
+**Schritte:**
+1. Das klingt nach Überlast.
+2. Als Workaround: wenn möglich 5GHz nutzen oder kurz auf LAN wechseln.
+3. Trenne die WLAN-Verbindung und verbinde dich neu.
+4. Prüfe, ob eine Proxy-Einstellung aktiv ist.
+
+**Benötigte Angaben:**
+- Nenne Standort (Etage/Raum) und die Zeiten.
+- Wenn es weiter besteht, sende dem IT-Support einen Screenshot der WLAN-Details (IP-Adresse/Gateway).
+
+**Hinweise:**
+- Danach: `ipconfig /release` und `ipconfig /renew` (falls erlaubt) bzw. Netzwerkproblembehandlung starten.
+
+**Support:**
+- Der IT-Support prüft Auslastung des Access Points und ob ein Kanalwechsel/Load-Balancing nötig ist.",TCK-0511;TCK-0503;TCK-0610,TCK-0301;TCK-0307;TCK-0312,PC sehr langsam nach Windows-Update | Datenträger bei 100% – alles langsam | PC langsam – viele Autostart-Programme,"Seit dem Windows-Update ist mein PC extrem langsam. Programme starten ewig. | Der PC ist extrem langsam, im Task-Manager steht Datenträger permanent bei 100%. | Mein Rechner ist seit Wochen langsam, besonders nach dem Hochfahren.",,,,,
+TF-IDF,3,8,Drucker: drucker / immer / wieder,Standarddrucker verstellt sich ständig?,"**Kurzlösung:** Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).
+
+**Ursache/Erklärung:**
+- Oft ist in der Vorlage A3 gespeichert.
+
+**Schritte:**
+1. Deaktiviere in Windows „Windows verwaltet Standarddrucker“ (Einstellungen -> Geräte -> Drucker & Scanner).
+2. Setze anschließend den gewünschten Drucker als Standard.
+3. Wenn du oft mit dem Laptop dockst, kann es sonst automatisch umschalten.
+4. Prüfe im Druckdialog das Papierformat (A4) und im Druckertreiber die „Standardpapiergröße“.
+5. Stelle außerdem sicher, dass im Druckerfach tatsächlich A4 eingelegt ist und das Fach korrekt eingestellt ist.
+6. Wenn du willst, schick mir einen Screenshot der Druckeinstellungen.
+7. Prüfe, ob der Drucker eingeschaltet ist und am Display eine IP-Adresse angezeigt wird.",TCK-0207;TCK-0208;TCK-0210,TCK-0104;TCK-0107;TCK-0204,Account wird immer wieder gesperrt | SSO Endlosschleife / Login-Loop | Druckstau / Fehler am Gerät,"Ich entsperre mich, aber nach kurzer Zeit ist der Account wieder gesperrt. | Ich werde beim Login immer wieder zurück zur Anmeldeseite geleitet (Loop). | Am Drucker steht „Paper Jam“, aber ich finde kein Papier. Drucken geht nicht mehr.",,,,,
+TF-IDF,7,8,Stabilität: friert / beim / teams,Teams friert beim Start ein?,"**Kurzlösung:** Starte Outlook im abgesicherten Modus und teste ohne Add-ins.
+
+**Schritte:**
+1. Teams komplett beenden (Task-Manager) und den Cache löschen (Teams Cache/Local Storage).
+2. Wenn es wieder passiert, prüfe Updates von Teams und Windows.
+3. Alternativ kannst du testweise die Web-Version nutzen.
+4. Prüfe zuerst die Größe der Mail/Anhänge.
+5. Starte Outlook im abgesicherten Modus und teste ohne Add-ins.
+6. Wenn es weiter passiert: OST-Datei neu erstellen (Konto entfernen/neu hinzufügen) und Windows-Updates prüfen.
+
+**Benötigte Angaben:**
+- Sende dem IT-Support bitte deine Teams-Version, falls es bleibt.
+
+**Hinweise:**
+- Danach Teams neu starten.",TCK-0303;TCK-0311;TCK-0308,TCK-0214;TCK-0303;TCK-0304,Druckwarteschlange lässt sich nicht löschen | Teams friert beim Start ein | Outlook friert beim Suchen ein,"Ich kann die Druckjobs nicht abbrechen, sie bleiben drin hängen. | Teams öffnet sich, aber reagiert nicht mehr (weißes Fenster). | Wenn ich in Outlook suche, hängt das Programm für mehrere Sekunden/minuten.",,,,,
+TF-IDF,10,7,Security: mfa / code / login,MFA Nummer geändert – Login blockiert?,"**Kurzlösung:** Aktiviere „Datum/Uhrzeit automatisch“ und öffne in der Authenticator-App (falls vorhanden) die Option „Zeitkorrektur/Synchronisieren“.
+
+**Ursache/Erklärung:**
+- Das passiert häufig bei abweichender Uhrzeit am Smartphone.
+
+**Schritte:**
+1. Aktiviere „Datum/Uhrzeit automatisch“ und öffne in der Authenticator-App (falls vorhanden) die Option „Zeitkorrektur/Synchronisieren“.
+2. Wenn es weiterhin nicht klappt, kann ich die MFA-Registrierung zurücksetzen, damit du sie neu einrichten kannst (nach Identitätsprüfung).
+3. Prüfe Netzempfang/Flugmodus und ob die Nummer korrekt hinterlegt ist.
+
+**Benötigte Angaben:**
+- Sende dem IT-Support die neue Nummer über den sicheren Kanal (nicht im Tickettext, falls euer Prozess das so vorsieht) und bestätige kurz deine Identität.
+
+**Hinweise:**
+- Danach richtest du MFA neu ein.
+- Danach erneut versuchen.
+
+**Support:**
+- Der IT-Support kann die hinterlegte MFA-Telefonnummer nach Identitätsprüfung aktualisieren oder die MFA-Registrierung zurücksetzen.",TCK-0113;TCK-0602;TCK-0108,TCK-0108;TCK-0109;TCK-0110,MFA Code kommt nicht an (SMS) | Authenticator App verloren – neues Handy | MFA Push-Bestätigung kommt nicht,"Beim Login wird ein SMS-Code verlangt, aber ich bekomme keine SMS. | Ich habe ein neues Handy und komme nicht mehr in den Authenticator. Login ist blockiert. | Normalerweise bekomme ich eine Push-Anfrage, aber es passiert nichts.",,,,,
+TF-IDF,9,5,Account: passwort / link / reset,Passwort-Reset Link kommt nicht an?,"**Kurzlösung:** Prüfe Spam/Quarantäne und ob du die richtige Firmen-E-Mail-Adresse verwendet hast.
+
+**Schritte:**
+1. Prüfe Spam/Quarantäne und ob du die richtige Firmen-E-Mail-Adresse verwendet hast.
+2. Wenn du ein privates Postfach eingetragen hast, funktioniert es nicht.
+3. Teile mir bitte den Zeitpunkt des Versuchs mit.
+4. Reset-Links sind zeitlich begrenzt.
+5. Starte den Prozess „Passwort vergessen“ erneut und nutze den neuesten Link.
+6. Wenn du mehrere Mails bekommen hast, ist nur die letzte gültig.
+
+**Support:**
+- Der IT-Support kann den Reset-Link erneut auslösen und das Postfach-Logging prüfen.
+- Falls es weiterhin fehlschlägt, prüfe bitte die Systemzeit deines PCs und gib dem IT-Support den Zeitpunkt des Versuchs durch.",TCK-0102;TCK-0601;TCK-0101,TCK-0101;TCK-0102;TCK-0114,Passwort vergessen – Login ins Intranet nicht möglich | Passwort-Reset Link kommt nicht an | Passwort-Regeln unklar – Reset scheitert,"Ich habe mein Passwort vergessen und komme nicht mehr ins Intranet. Können Sie mir helfen? | Ich habe „Passwort vergessen“ genutzt, aber es kommt keine Mail mit dem Link an. | Beim Zurücksetzen bekomme ich „Passwort entspricht nicht den Richtlinien“. Welche Regeln gelten?",,,,,
+TF-IDF,6,5,Netzwerk: lan / funktioniert / lan wlan,Dockingstation: LAN wird nicht erkannt?,"**Kurzlösung:** Prüfe Treiber/Firmware der Dockingstation (falls eure IT das verteilt).
+
+**Schritte:**
+1. Trenne Dockingstation komplett (Strom + USB-C), warte 10 Sekunden und schließe alles neu an.
+2. Prüfe Treiber/Firmware der Dockingstation (falls eure IT das verteilt).
+3. Teste außerdem einen anderen USB-C Port.
+4. Wenn LAN am gleichen Kabel ohne Dock geht, liegt es sehr wahrscheinlich an Dock/Treiber.
+5. Prüfe, ob das LAN-Kabel richtig eingerastet ist und ob am Port/Adapter LEDs leuchten.
+6. Teste wenn möglich ein anderes Kabel oder einen anderen Netzwerkport.
+7. Prüfe zuerst, ob du im richtigen Netzwerk/VLAN bist (nach Umzug kann Port falsch gepatcht sein).
+
+**Support:**
+- Der IT-Support kann den Switch-Port prüfen (VLAN/Port deaktiviert) – dafür brauche ich Raum/Portnummer (falls am Anschluss steht) und deine MAC-Adresse.",TCK-0505;TCK-0504;TCK-0510,TCK-0106;TCK-0404;TCK-0504,"SSO funktioniert in Edge, aber nicht in Chrome | Aktivierung mit Key funktioniert nicht | LAN funktioniert nicht nach Umzug","In Edge klappt die Anmeldung, in Chrome kommt „Something went wrong“. | Ich habe einen Produkt-Key, aber bei der Eingabe kommt „Ungültig“ oder „Kann nicht aktiviert werden“. | Ich bin umgezogen und seitdem geht mein LAN nicht mehr. WLAN geht.",,,,,

@@ -1,0 +1,13 @@
+faq_id,cluster_id,topic_label,question,supporting_ticket_ids,llm_model,llm_error
+FAQ-000,0,Stabilität: friert / teams / beim,Teams friert oder reagiert nicht mehr (weißes Fenster). Was kann ich tun?,TCK-0303;TCK-0308;TCK-0311,gemma3:4b,
+FAQ-001,1,Lizenz: aktivierung / office / aktiviert,"Ich erhalte beim Aktivieren von Office den Fehlercode 0xC004F074 oder die Meldung ""Account not eligible"". Was kann ich tun?",TCK-0412;TCK-0403;TCK-0607,gemma3:4b,
+FAQ-002,2,Performance: nach / update / windows,Mein PC ist nach einem Windows-Update sehr langsam. Was kann ich tun?,TCK-0301;TCK-0606;TCK-0313,gemma3:4b,
+FAQ-003,3,Account: passwort / reset / bekomme,Ich habe mein Passwort vergessen und komme nicht mehr an meinen Reset-Link oder meine neue Zugangsdaten.,TCK-0102;TCK-0114;TCK-0101,gemma3:4b,
+FAQ-004,4,Netzwerk: wlan / verbindet / trennt,"Ich verbinde mich mit dem WLAN, aber es trennt sich sofort wieder.",TCK-0610;TCK-0513;TCK-0501,gemma3:4b,
+FAQ-005,5,Drucker: drucker / drucke / immer,Warum druckt mein Drucker manchmal ein falsches Papierformat (z.B. A3 statt A4)?,TCK-0208;TCK-0207;TCK-0209,gemma3:4b,
+FAQ-006,6,Lizenz: lizenz / pro / keinen,Wie beantworte ich eine Anfrage nach einer Lizenz für ein neues Tool?,TCK-0409;TCK-0608;TCK-0410,gemma3:4b,
+FAQ-007,7,Netzwerk: lan / laden / kein,"Ich bin mit dem WLAN verbunden, aber kann keine Internetseiten laden. Was kann ich tun?",TCK-0503;TCK-0504;TCK-0505,gemma3:4b,
+FAQ-008,8,Performance: cpu / voll / task,Warum verbraucht ein Prozess im Task-Manager viel CPU?,TCK-0305;TCK-0605;TCK-0306,gemma3:4b,
+FAQ-009,9,Scannen: mail / scan to / to mail,Scan-to-Mail funktioniert nicht oder sendet an die falsche Adresse.,TCK-0205;TCK-0604;TCK-0212,gemma3:4b,
+FAQ-010,10,Account: gesperrt / login / nach,Mein Konto wird nach dem Login (z.B. über VPN) oder nach mehreren fehlgeschlagenen Anmeldeversuchen gesperrt. Was kann ich tun?,TCK-0115;TCK-0104;TCK-0103,gemma3:4b,
+FAQ-011,11,Drucker: druck / druckt / drucker,Mein Drucker druckt sehr blass oder kaum lesbar / Der Drucker druckt langsam.,TCK-0603;TCK-0213;TCK-0201,gemma3:4b,

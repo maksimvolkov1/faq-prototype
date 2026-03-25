@@ -1,0 +1,647 @@
+[
+  {
+    "faq_id": "FAQ-000",
+    "cluster_id": 0,
+    "topic_label": "Stabilität: friert / teams / beim",
+    "keywords": [
+      "friert",
+      "teams",
+      "beim",
+      "reagiert"
+    ],
+    "question": "Teams friert oder reagiert nicht mehr (weißes Fenster). Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Teams komplett beenden, Cache löschen und neu starten. Überprüfe Updates und teste die Web-Version.",
+      "steps": [
+        "Teams komplett über den Task-Manager beenden.",
+        "Teams Cache und Local Storage löschen.",
+        "Teams neu starten.",
+        "Falls das Problem weiterhin besteht, die Teams-Version mitteilen."
+      ],
+      "notes": [
+        "Teste die Web-Version von Teams als Alternative."
+      ],
+      "support": [
+        "Überprüfe Updates von Teams und Windows.",
+        "Prüfe die WLAN-Verbindung und teste mit LAN oder einem anderen Access Point.",
+        "Teste mit nur einem Monitor, falls mehrere Monitore verwendet werden."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Teams komplett beenden, Cache löschen und neu starten. Überprüfe Updates und teste die Web-Version.\n\n**Schritte:**\n1. Teams komplett über den Task-Manager beenden.\n2. Teams Cache und Local Storage löschen.\n3. Teams neu starten.\n4. Falls das Problem weiterhin besteht, die Teams-Version mitteilen.\n\n**Hinweise:**\n- Teste die Web-Version von Teams als Alternative.\n\n**Support:**\n- Überprüfe Updates von Teams und Windows.\n- Prüfe die WLAN-Verbindung und teste mit LAN oder einem anderen Access Point.\n- Teste mit nur einem Monitor, falls mehrere Monitore verwendet werden.",
+    "supporting_ticket_ids": [
+      "TCK-0303",
+      "TCK-0308",
+      "TCK-0311"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Teams friert oder reagiert nicht mehr (weißes Fenster). Was kann ich tun?",
+      "answer": {
+        "short_solution": "Teams komplett beenden, Cache löschen und neu starten. Überprüfe Updates und teste die Web-Version.",
+        "steps": [
+          "Teams komplett über den Task-Manager beenden.",
+          "Teams Cache und Local Storage löschen.",
+          "Teams neu starten.",
+          "Falls das Problem weiterhin besteht, die Teams-Version mitteilen."
+        ],
+        "notes": [
+          "Teste die Web-Version von Teams als Alternative."
+        ],
+        "support": [
+          "Überprüfe Updates von Teams und Windows.",
+          "Prüfe die WLAN-Verbindung und teste mit LAN oder einem anderen Access Point.",
+          "Teste mit nur einem Monitor, falls mehrere Monitore verwendet werden."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-001",
+    "cluster_id": 1,
+    "topic_label": "Lizenz: aktivierung / office / aktiviert",
+    "keywords": [
+      "aktivierung",
+      "office",
+      "aktiviert",
+      "produkt",
+      "beim"
+    ],
+    "question": "Ich erhalte beim Aktivieren von Office den Fehlercode 0xC004F074 oder die Meldung \"Account not eligible\". Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Überprüfe dein Konto, die Netzwerkverbindung und starte den PC neu.",
+      "steps": [
+        "Überprüfe Datum/Uhrzeit und Netzwerkverbindung (im Firmennetz oder VPN).",
+        "Starte den PC neu.",
+        "Melde dich mit deinem Firmenkonto ab und wieder an.",
+        "Lösche gespeicherte Anmeldedaten im Windows-Anmeldeinformationsmanager (Office/Microsoft Einträge)."
+      ],
+      "notes": [
+        "Das Problem kann durch eine fehlerhafte KMS-Kommunikation oder ein falsches Konto verursacht werden."
+      ],
+      "support": [
+        "Sende mir einen Screenshot, wenn das Problem weiterhin besteht.",
+        "Ich prüfe, ob KMS/Token oder die installierte Office-Edition nicht zur Lizenz passt.",
+        "Prüfen wir, ob mehrere Konten (privat/geschäftlich) parallel hinterlegt sind."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfe dein Konto, die Netzwerkverbindung und starte den PC neu.\n\n**Schritte:**\n1. Überprüfe Datum/Uhrzeit und Netzwerkverbindung (im Firmennetz oder VPN).\n2. Starte den PC neu.\n3. Melde dich mit deinem Firmenkonto ab und wieder an.\n4. Lösche gespeicherte Anmeldedaten im Windows-Anmeldeinformationsmanager (Office/Microsoft Einträge).\n\n**Hinweise:**\n- Das Problem kann durch eine fehlerhafte KMS-Kommunikation oder ein falsches Konto verursacht werden.\n\n**Support:**\n- Sende mir einen Screenshot, wenn das Problem weiterhin besteht.\n- Ich prüfe, ob KMS/Token oder die installierte Office-Edition nicht zur Lizenz passt.\n- Prüfen wir, ob mehrere Konten (privat/geschäftlich) parallel hinterlegt sind.",
+    "supporting_ticket_ids": [
+      "TCK-0412",
+      "TCK-0403",
+      "TCK-0607"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich erhalte beim Aktivieren von Office den Fehlercode 0xC004F074 oder die Meldung \"Account not eligible\". Was kann ich tun?",
+      "answer": {
+        "short_solution": "Überprüfe dein Konto, die Netzwerkverbindung und starte den PC neu.",
+        "steps": [
+          "Überprüfe Datum/Uhrzeit und Netzwerkverbindung (im Firmennetz oder VPN).",
+          "Starte den PC neu.",
+          "Melde dich mit deinem Firmenkonto ab und wieder an.",
+          "Lösche gespeicherte Anmeldedaten im Windows-Anmeldeinformationsmanager (Office/Microsoft Einträge)."
+        ],
+        "notes": [
+          "Das Problem kann durch eine fehlerhafte KMS-Kommunikation oder ein falsches Konto verursacht werden."
+        ],
+        "support": [
+          "Sende mir einen Screenshot, wenn das Problem weiterhin besteht.",
+          "Ich prüfe, ob KMS/Token oder die installierte Office-Edition nicht zur Lizenz passt.",
+          "Prüfen wir, ob mehrere Konten (privat/geschäftlich) parallel hinterlegt sind."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-002",
+    "cluster_id": 2,
+    "topic_label": "Performance: nach / update / windows",
+    "keywords": [
+      "nach",
+      "update",
+      "windows",
+      "langsam"
+    ],
+    "question": "Mein PC ist nach einem Windows-Update sehr langsam. Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Lasse den PC nach dem Update 30-60 Minuten am Strom und im WLAN/LAN laufen. Überprüfe den Task-Manager auf ressourcenintensive Prozesse.",
+      "steps": [
+        "Lasse den PC 30-60 Minuten am Strom und im WLAN/LAN laufen.",
+        "Starte den PC neu.",
+        "Überprüfe im Task-Manager, ob \"Windows Modules Installer\" oder \"Antimalware Service Executable\" viel Last verursachen.",
+        "Schließe testweise große Programme und starte Teams/Browser neu."
+      ],
+      "notes": [
+        "Hintergrundprozesse wie Indexierung oder Defender können die Performance beeinträchtigen.",
+        "Der Ordner Windows.old kann nach größeren Updates entstehen und sollte über die Datenträgerbereinigung entfernt werden."
+      ],
+      "support": [
+        "Bitte sende einen Screenshot vom Task-Manager (CPU/RAM/Datenträger), wenn das Problem weiterhin besteht."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Lasse den PC nach dem Update 30-60 Minuten am Strom und im WLAN/LAN laufen. Überprüfe den Task-Manager auf ressourcenintensive Prozesse.\n\n**Schritte:**\n1. Lasse den PC 30-60 Minuten am Strom und im WLAN/LAN laufen.\n2. Starte den PC neu.\n3. Überprüfe im Task-Manager, ob \"Windows Modules Installer\" oder \"Antimalware Service Executable\" viel Last verursachen.\n4. Schließe testweise große Programme und starte Teams/Browser neu.\n\n**Hinweise:**\n- Hintergrundprozesse wie Indexierung oder Defender können die Performance beeinträchtigen.\n- Der Ordner Windows.old kann nach größeren Updates entstehen und sollte über die Datenträgerbereinigung entfernt werden.\n\n**Support:**\n- Bitte sende einen Screenshot vom Task-Manager (CPU/RAM/Datenträger), wenn das Problem weiterhin besteht.",
+    "supporting_ticket_ids": [
+      "TCK-0301",
+      "TCK-0606",
+      "TCK-0313"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Mein PC ist nach einem Windows-Update sehr langsam. Was kann ich tun?",
+      "answer": {
+        "short_solution": "Lasse den PC nach dem Update 30-60 Minuten am Strom und im WLAN/LAN laufen. Überprüfe den Task-Manager auf ressourcenintensive Prozesse.",
+        "steps": [
+          "Lasse den PC 30-60 Minuten am Strom und im WLAN/LAN laufen.",
+          "Starte den PC neu.",
+          "Überprüfe im Task-Manager, ob \"Windows Modules Installer\" oder \"Antimalware Service Executable\" viel Last verursachen.",
+          "Schließe testweise große Programme und starte Teams/Browser neu."
+        ],
+        "notes": [
+          "Hintergrundprozesse wie Indexierung oder Defender können die Performance beeinträchtigen.",
+          "Der Ordner Windows.old kann nach größeren Updates entstehen und sollte über die Datenträgerbereinigung entfernt werden."
+        ],
+        "support": [
+          "Bitte sende einen Screenshot vom Task-Manager (CPU/RAM/Datenträger), wenn das Problem weiterhin besteht."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-003",
+    "cluster_id": 3,
+    "topic_label": "Account: passwort / reset / bekomme",
+    "keywords": [
+      "passwort",
+      "reset",
+      "bekomme",
+      "link",
+      "login"
+    ],
+    "question": "Ich habe mein Passwort vergessen und komme nicht mehr an meinen Reset-Link oder meine neue Zugangsdaten.",
+    "answer_structured": {
+      "short_solution": "Bitte prüfe deinen Spam-Ordner und die E-Mail-Adresse, die du für den Passwort-Reset verwendet hast. Bei Problemen kann das Passwort manuell zurückgesetzt werden.",
+      "steps": [
+        "Nutze die Funktion 'Passwort vergessen' auf der Login-Seite.",
+        "Überprüfe deinen Spam-Ordner und die Quarantäne-Ordner deines E-Mail-Postfachs.",
+        "Stelle sicher, dass du die korrekte Firmen-E-Mail-Adresse verwendest (kein privates Postfach)."
+      ],
+      "notes": [
+        "Wenn du keinen Link erhältst, bestätige deine Identität (z.B. Personalnummer), damit das Passwort manuell zurückgesetzt werden kann."
+      ],
+      "support": [
+        "Bei Problemen mit dem Reset-Link kann der Reset-Link erneut ausgelöst werden.",
+        "Achte bei der Passwortwahl auf eine Mindestlänge und eine Mischung aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen. Vermeide leicht erratbare Wörter und verwende besser eine Passphrase."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Bitte prüfe deinen Spam-Ordner und die E-Mail-Adresse, die du für den Passwort-Reset verwendet hast. Bei Problemen kann das Passwort manuell zurückgesetzt werden.\n\n**Schritte:**\n1. Nutze die Funktion 'Passwort vergessen' auf der Login-Seite.\n2. Überprüfe deinen Spam-Ordner und die Quarantäne-Ordner deines E-Mail-Postfachs.\n3. Stelle sicher, dass du die korrekte Firmen-E-Mail-Adresse verwendest (kein privates Postfach).\n\n**Hinweise:**\n- Wenn du keinen Link erhältst, bestätige deine Identität (z.B. Personalnummer), damit das Passwort manuell zurückgesetzt werden kann.\n\n**Support:**\n- Bei Problemen mit dem Reset-Link kann der Reset-Link erneut ausgelöst werden.\n- Achte bei der Passwortwahl auf eine Mindestlänge und eine Mischung aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen. Vermeide leicht erratbare Wörter und verwende besser eine Passphrase.",
+    "supporting_ticket_ids": [
+      "TCK-0102",
+      "TCK-0114",
+      "TCK-0101"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich habe mein Passwort vergessen und komme nicht mehr an meinen Reset-Link oder meine neue Zugangsdaten.",
+      "answer": {
+        "short_solution": "Bitte prüfe deinen Spam-Ordner und die E-Mail-Adresse, die du für den Passwort-Reset verwendet hast. Bei Problemen kann das Passwort manuell zurückgesetzt werden.",
+        "steps": [
+          "Nutze die Funktion 'Passwort vergessen' auf der Login-Seite.",
+          "Überprüfe deinen Spam-Ordner und die Quarantäne-Ordner deines E-Mail-Postfachs.",
+          "Stelle sicher, dass du die korrekte Firmen-E-Mail-Adresse verwendest (kein privates Postfach)."
+        ],
+        "notes": [
+          "Wenn du keinen Link erhältst, bestätige deine Identität (z.B. Personalnummer), damit das Passwort manuell zurückgesetzt werden kann."
+        ],
+        "support": [
+          "Bei Problemen mit dem Reset-Link kann der Reset-Link erneut ausgelöst werden.",
+          "Achte bei der Passwortwahl auf eine Mindestlänge und eine Mischung aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen. Vermeide leicht erratbare Wörter und verwende besser eine Passphrase."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-004",
+    "cluster_id": 4,
+    "topic_label": "Netzwerk: wlan / verbindet / trennt",
+    "keywords": [
+      "wlan",
+      "verbindet",
+      "trennt",
+      "wlan verbindet"
+    ],
+    "question": "Ich verbinde mich mit dem WLAN, aber es trennt sich sofort wieder.",
+    "answer_structured": {
+      "short_solution": "Entferne das WLAN-Profil und verbinde dich neu. Überprüfe, ob du das richtige Netz verwendest.",
+      "steps": [
+        "Entferne das WLAN-Profil komplett.",
+        "Verbinde dich neu.",
+        "Prüfe, ob du das richtige Netz (z. B. Mitarbeiter vs. Gast) verwendest."
+      ],
+      "notes": [
+        "Überprüfe, ob ein Zertifikat/Passwort-Problem vorliegt, wenn 802.1X verwendet wird."
+      ],
+      "support": [
+        "Starte den PC einmal neu.",
+        "Prüfe, ob der WLAN-Treiber aktuell ist (Windows Update).",
+        "Teste kurz in einem anderen Raum/nahe am Access Point.",
+        "Bitte nenne mir Raum/Etage und Uhrzeiten der Abbrüche für die AP-Logprüfung."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Entferne das WLAN-Profil und verbinde dich neu. Überprüfe, ob du das richtige Netz verwendest.\n\n**Schritte:**\n1. Entferne das WLAN-Profil komplett.\n2. Verbinde dich neu.\n3. Prüfe, ob du das richtige Netz (z. B. Mitarbeiter vs. Gast) verwendest.\n\n**Hinweise:**\n- Überprüfe, ob ein Zertifikat/Passwort-Problem vorliegt, wenn 802.1X verwendet wird.\n\n**Support:**\n- Starte den PC einmal neu.\n- Prüfe, ob der WLAN-Treiber aktuell ist (Windows Update).\n- Teste kurz in einem anderen Raum/nahe am Access Point.\n- Bitte nenne mir Raum/Etage und Uhrzeiten der Abbrüche für die AP-Logprüfung.",
+    "supporting_ticket_ids": [
+      "TCK-0610",
+      "TCK-0513",
+      "TCK-0501"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich verbinde mich mit dem WLAN, aber es trennt sich sofort wieder.",
+      "answer": {
+        "short_solution": "Entferne das WLAN-Profil und verbinde dich neu. Überprüfe, ob du das richtige Netz verwendest.",
+        "steps": [
+          "Entferne das WLAN-Profil komplett.",
+          "Verbinde dich neu.",
+          "Prüfe, ob du das richtige Netz (z. B. Mitarbeiter vs. Gast) verwendest."
+        ],
+        "notes": [
+          "Überprüfe, ob ein Zertifikat/Passwort-Problem vorliegt, wenn 802.1X verwendet wird."
+        ],
+        "support": [
+          "Starte den PC einmal neu.",
+          "Prüfe, ob der WLAN-Treiber aktuell ist (Windows Update).",
+          "Teste kurz in einem anderen Raum/nahe am Access Point.",
+          "Bitte nenne mir Raum/Etage und Uhrzeiten der Abbrüche für die AP-Logprüfung."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-005",
+    "cluster_id": 5,
+    "topic_label": "Drucker: drucker / drucke / immer",
+    "keywords": [
+      "drucker",
+      "drucke",
+      "immer",
+      "hängen"
+    ],
+    "question": "Warum druckt mein Drucker manchmal ein falsches Papierformat (z.B. A3 statt A4)?",
+    "answer_structured": {
+      "short_solution": "Überprüfe die Druckeinstellungen im Druckdialog und im Druckertreiber. Stelle sicher, dass das Papierformat korrekt eingestellt ist und dass das Druckerfach A4 enthält.",
+      "steps": [
+        "Prüfe das Papierformat (A4) im Druckdialog.",
+        "Prüfe die Standardpapiergröße im Druckertreiber.",
+        "Stelle sicher, dass das Druckerfach A4 enthält.",
+        "Sende einen Screenshot der Druckeinstellungen, falls nötig."
+      ],
+      "notes": [
+        "Oft ist in der Vorlage A3 gespeichert."
+      ],
+      "support": [
+        "Keine zusätzlichen Support-Aktionen erforderlich."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfe die Druckeinstellungen im Druckdialog und im Druckertreiber. Stelle sicher, dass das Papierformat korrekt eingestellt ist und dass das Druckerfach A4 enthält.\n\n**Schritte:**\n1. Prüfe das Papierformat (A4) im Druckdialog.\n2. Prüfe die Standardpapiergröße im Druckertreiber.\n3. Stelle sicher, dass das Druckerfach A4 enthält.\n4. Sende einen Screenshot der Druckeinstellungen, falls nötig.\n\n**Hinweise:**\n- Oft ist in der Vorlage A3 gespeichert.\n\n**Support:**\n- Keine zusätzlichen Support-Aktionen erforderlich.",
+    "supporting_ticket_ids": [
+      "TCK-0208",
+      "TCK-0207",
+      "TCK-0209"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum druckt mein Drucker manchmal ein falsches Papierformat (z.B. A3 statt A4)?",
+      "answer": {
+        "short_solution": "Überprüfe die Druckeinstellungen im Druckdialog und im Druckertreiber. Stelle sicher, dass das Papierformat korrekt eingestellt ist und dass das Druckerfach A4 enthält.",
+        "steps": [
+          "Prüfe das Papierformat (A4) im Druckdialog.",
+          "Prüfe die Standardpapiergröße im Druckertreiber.",
+          "Stelle sicher, dass das Druckerfach A4 enthält.",
+          "Sende einen Screenshot der Druckeinstellungen, falls nötig."
+        ],
+        "notes": [
+          "Oft ist in der Vorlage A3 gespeichert."
+        ],
+        "support": [
+          "Keine zusätzlichen Support-Aktionen erforderlich."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-006",
+    "cluster_id": 6,
+    "topic_label": "Lizenz: lizenz / pro / keinen",
+    "keywords": [
+      "lizenz",
+      "pro",
+      "keinen",
+      "benötigt",
+      "neues tool"
+    ],
+    "question": "Wie beantworte ich eine Anfrage nach einer Lizenz für ein neues Tool?",
+    "answer_structured": {
+      "short_solution": "Bitte geben Sie Projektname, benötigte Rolle, Begründung und Freigabe durch die Projektleitung an.",
+      "steps": [
+        "Senden Sie Projektname, benötigte Rolle (z. B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung."
+      ],
+      "notes": [
+        "Nach Erhalt der Informationen kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen."
+      ],
+      "support": [
+        "Sie erhalten eine Bestätigung, sobald die Zuweisung aktiv ist."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Bitte geben Sie Projektname, benötigte Rolle, Begründung und Freigabe durch die Projektleitung an.\n\n**Schritte:**\n1. Senden Sie Projektname, benötigte Rolle (z. B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung.\n\n**Hinweise:**\n- Nach Erhalt der Informationen kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen.\n\n**Support:**\n- Sie erhalten eine Bestätigung, sobald die Zuweisung aktiv ist.",
+    "supporting_ticket_ids": [
+      "TCK-0409",
+      "TCK-0608",
+      "TCK-0410"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Wie beantworte ich eine Anfrage nach einer Lizenz für ein neues Tool?",
+      "answer": {
+        "short_solution": "Bitte geben Sie Projektname, benötigte Rolle, Begründung und Freigabe durch die Projektleitung an.",
+        "steps": [
+          "Senden Sie Projektname, benötigte Rolle (z. B. User/Admin), Begründung und idealerweise eine kurze Freigabe durch Projektleitung."
+        ],
+        "notes": [
+          "Nach Erhalt der Informationen kann ich die Lizenz zuweisen bzw. den Antrag im Lizenzsystem stellen."
+        ],
+        "support": [
+          "Sie erhalten eine Bestätigung, sobald die Zuweisung aktiv ist."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-007",
+    "cluster_id": 7,
+    "topic_label": "Netzwerk: lan / laden / kein",
+    "keywords": [
+      "lan",
+      "laden",
+      "kein",
+      "verbunden",
+      "proxy"
+    ],
+    "question": "Ich bin mit dem WLAN verbunden, aber kann keine Internetseiten laden. Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Trenne die WLAN-Verbindung und verbinde dich neu. Überprüfe Proxy-Einstellungen und führe die Netzwerkproblembehandlung durch.",
+      "steps": [
+        "Trenne die WLAN-Verbindung.",
+        "Verbinde dich neu.",
+        "Führe `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).",
+        "Starte die Netzwerkproblembehandlung.",
+        "Überprüfe Proxy-Einstellungen."
+      ],
+      "notes": [
+        "Überprüfe die WLAN-Details (IP-Adresse/Gateway) und sende einen Screenshot bei Bedarf."
+      ],
+      "support": [
+        "Kontaktiere den Support, wenn das Problem weiterhin besteht."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Trenne die WLAN-Verbindung und verbinde dich neu. Überprüfe Proxy-Einstellungen und führe die Netzwerkproblembehandlung durch.\n\n**Schritte:**\n1. Trenne die WLAN-Verbindung.\n2. Verbinde dich neu.\n3. Führe `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).\n4. Starte die Netzwerkproblembehandlung.\n5. Überprüfe Proxy-Einstellungen.\n\n**Hinweise:**\n- Überprüfe die WLAN-Details (IP-Adresse/Gateway) und sende einen Screenshot bei Bedarf.\n\n**Support:**\n- Kontaktiere den Support, wenn das Problem weiterhin besteht.",
+    "supporting_ticket_ids": [
+      "TCK-0503",
+      "TCK-0504",
+      "TCK-0505"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Ich bin mit dem WLAN verbunden, aber kann keine Internetseiten laden. Was kann ich tun?",
+      "answer": {
+        "short_solution": "Trenne die WLAN-Verbindung und verbinde dich neu. Überprüfe Proxy-Einstellungen und führe die Netzwerkproblembehandlung durch.",
+        "steps": [
+          "Trenne die WLAN-Verbindung.",
+          "Verbinde dich neu.",
+          "Führe `ipconfig /release` und `ipconfig /renew` aus (falls erlaubt).",
+          "Starte die Netzwerkproblembehandlung.",
+          "Überprüfe Proxy-Einstellungen."
+        ],
+        "notes": [
+          "Überprüfe die WLAN-Details (IP-Adresse/Gateway) und sende einen Screenshot bei Bedarf."
+        ],
+        "support": [
+          "Kontaktiere den Support, wenn das Problem weiterhin besteht."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-008",
+    "cluster_id": 8,
+    "topic_label": "Performance: cpu / voll / task",
+    "keywords": [
+      "cpu",
+      "voll",
+      "task",
+      "task manager",
+      "manager"
+    ],
+    "question": "Warum verbraucht ein Prozess im Task-Manager viel CPU?",
+    "answer_structured": {
+      "short_solution": "Hohe CPU-Auslastung kann durch verschiedene Prozesse verursacht werden, wie z.B. Windows Defender, OneDrive oder unbekannte Updater.",
+      "steps": [
+        "Überprüfe den Task-Manager auf CPU-intensive Prozesse."
+      ],
+      "notes": [
+        "Die Ursache kann ein Scan, eine Synchronisation oder ein Update sein."
+      ],
+      "support": [
+        "Bitte sende den Prozessnamen und einen Screenshot aus dem Task-Manager (Details-Tab) weiter, falls der Prozess unbekannt ist."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Hohe CPU-Auslastung kann durch verschiedene Prozesse verursacht werden, wie z.B. Windows Defender, OneDrive oder unbekannte Updater.\n\n**Schritte:**\n1. Überprüfe den Task-Manager auf CPU-intensive Prozesse.\n\n**Hinweise:**\n- Die Ursache kann ein Scan, eine Synchronisation oder ein Update sein.\n\n**Support:**\n- Bitte sende den Prozessnamen und einen Screenshot aus dem Task-Manager (Details-Tab) weiter, falls der Prozess unbekannt ist.",
+    "supporting_ticket_ids": [
+      "TCK-0305",
+      "TCK-0605",
+      "TCK-0306"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Warum verbraucht ein Prozess im Task-Manager viel CPU?",
+      "answer": {
+        "short_solution": "Hohe CPU-Auslastung kann durch verschiedene Prozesse verursacht werden, wie z.B. Windows Defender, OneDrive oder unbekannte Updater.",
+        "steps": [
+          "Überprüfe den Task-Manager auf CPU-intensive Prozesse."
+        ],
+        "notes": [
+          "Die Ursache kann ein Scan, eine Synchronisation oder ein Update sein."
+        ],
+        "support": [
+          "Bitte sende den Prozessnamen und einen Screenshot aus dem Task-Manager (Details-Tab) weiter, falls der Prozess unbekannt ist."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-009",
+    "cluster_id": 9,
+    "topic_label": "Scannen: mail / scan to / to mail",
+    "keywords": [
+      "mail",
+      "scan to",
+      "to mail",
+      "scan"
+    ],
+    "question": "Scan-to-Mail funktioniert nicht oder sendet an die falsche Adresse.",
+    "answer_structured": {
+      "short_solution": "Überprüfen Sie die Empfängeradresse, den Spam-Ordner und die Gerätekonfiguration (SMTP-Relay, Account, TLS).",
+      "steps": [
+        "Überprüfen Sie die ausgewählte Empfängeradresse.",
+        "Prüfen Sie den Spam-Ordner auf empfangene E-Mails.",
+        "Überprüfen Sie die Gerätekonfiguration (SMTP-Relay, Account, TLS)."
+      ],
+      "notes": [
+        "Häufige Ursachen sind falsche Adressen, SMTP/Authentifizierungsprobleme oder blockierte Empfängeradressen."
+      ],
+      "support": [
+        "Bitte geben Sie den Gerätenamen, Standort und die Uhrzeit des Scans an."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfen Sie die Empfängeradresse, den Spam-Ordner und die Gerätekonfiguration (SMTP-Relay, Account, TLS).\n\n**Schritte:**\n1. Überprüfen Sie die ausgewählte Empfängeradresse.\n2. Prüfen Sie den Spam-Ordner auf empfangene E-Mails.\n3. Überprüfen Sie die Gerätekonfiguration (SMTP-Relay, Account, TLS).\n\n**Hinweise:**\n- Häufige Ursachen sind falsche Adressen, SMTP/Authentifizierungsprobleme oder blockierte Empfängeradressen.\n\n**Support:**\n- Bitte geben Sie den Gerätenamen, Standort und die Uhrzeit des Scans an.",
+    "supporting_ticket_ids": [
+      "TCK-0205",
+      "TCK-0604",
+      "TCK-0212"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Scan-to-Mail funktioniert nicht oder sendet an die falsche Adresse.",
+      "answer": {
+        "short_solution": "Überprüfen Sie die Empfängeradresse, den Spam-Ordner und die Gerätekonfiguration (SMTP-Relay, Account, TLS).",
+        "steps": [
+          "Überprüfen Sie die ausgewählte Empfängeradresse.",
+          "Prüfen Sie den Spam-Ordner auf empfangene E-Mails.",
+          "Überprüfen Sie die Gerätekonfiguration (SMTP-Relay, Account, TLS)."
+        ],
+        "notes": [
+          "Häufige Ursachen sind falsche Adressen, SMTP/Authentifizierungsprobleme oder blockierte Empfängeradressen."
+        ],
+        "support": [
+          "Bitte geben Sie den Gerätenamen, Standort und die Uhrzeit des Scans an."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-010",
+    "cluster_id": 10,
+    "topic_label": "Account: gesperrt / login / nach",
+    "keywords": [
+      "gesperrt",
+      "login",
+      "nach",
+      "konto",
+      "immer"
+    ],
+    "question": "Mein Konto wird nach dem Login (z.B. über VPN) oder nach mehreren fehlgeschlagenen Anmeldeversuchen gesperrt. Was kann ich tun?",
+    "answer_structured": {
+      "short_solution": "Überprüfe gespeicherte Passwörter auf Geräten wie Smartphone, Outlook oder VPN-Client und aktualisiere diese. Setze das Passwort bei Bedarf über \"Passwort vergessen\" zurück.",
+      "steps": [
+        "Ändere das Passwort auf allen Geräten, auf denen ein altes Passwort gespeichert ist.",
+        "Aktualisiere die Anmeldedaten auf allen Geräten (Handy, Outlook, VPN-Client).",
+        "Wenn du dir das Passwort nicht sicher bist, setze es über \"Passwort vergessen\" zurück."
+      ],
+      "notes": [
+        "Die Sperrung kann durch alte gespeicherte Passwörter verursacht werden.",
+        "Warte nach der Entsperrung 5 Minuten, bevor du dich erneut anmeldest."
+      ],
+      "support": [
+        "Kontaktiere den Support, wenn das Problem weiterhin besteht."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfe gespeicherte Passwörter auf Geräten wie Smartphone, Outlook oder VPN-Client und aktualisiere diese. Setze das Passwort bei Bedarf über \"Passwort vergessen\" zurück.\n\n**Schritte:**\n1. Ändere das Passwort auf allen Geräten, auf denen ein altes Passwort gespeichert ist.\n2. Aktualisiere die Anmeldedaten auf allen Geräten (Handy, Outlook, VPN-Client).\n3. Wenn du dir das Passwort nicht sicher bist, setze es über \"Passwort vergessen\" zurück.\n\n**Hinweise:**\n- Die Sperrung kann durch alte gespeicherte Passwörter verursacht werden.\n- Warte nach der Entsperrung 5 Minuten, bevor du dich erneut anmeldest.\n\n**Support:**\n- Kontaktiere den Support, wenn das Problem weiterhin besteht.",
+    "supporting_ticket_ids": [
+      "TCK-0115",
+      "TCK-0104",
+      "TCK-0103"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Mein Konto wird nach dem Login (z.B. über VPN) oder nach mehreren fehlgeschlagenen Anmeldeversuchen gesperrt. Was kann ich tun?",
+      "answer": {
+        "short_solution": "Überprüfe gespeicherte Passwörter auf Geräten wie Smartphone, Outlook oder VPN-Client und aktualisiere diese. Setze das Passwort bei Bedarf über \"Passwort vergessen\" zurück.",
+        "steps": [
+          "Ändere das Passwort auf allen Geräten, auf denen ein altes Passwort gespeichert ist.",
+          "Aktualisiere die Anmeldedaten auf allen Geräten (Handy, Outlook, VPN-Client).",
+          "Wenn du dir das Passwort nicht sicher bist, setze es über \"Passwort vergessen\" zurück."
+        ],
+        "notes": [
+          "Die Sperrung kann durch alte gespeicherte Passwörter verursacht werden.",
+          "Warte nach der Entsperrung 5 Minuten, bevor du dich erneut anmeldest."
+        ],
+        "support": [
+          "Kontaktiere den Support, wenn das Problem weiterhin besteht."
+        ]
+      }
+    }
+  },
+  {
+    "faq_id": "FAQ-011",
+    "cluster_id": 11,
+    "topic_label": "Drucker: druck / druckt / drucker",
+    "keywords": [
+      "druck",
+      "druckt",
+      "drucker",
+      "pdf",
+      "ausdrucke"
+    ],
+    "question": "Mein Drucker druckt sehr blass oder kaum lesbar / Der Drucker druckt langsam.",
+    "answer_structured": {
+      "short_solution": "Überprüfen Sie Tonerstand, rütteln Sie die Tonerkassette und führen Sie eine Kalibrierung durch. Testen Sie eine Testseite.",
+      "steps": [
+        "Prüfen Sie den Tonerstand am Gerät.",
+        "Rütteln Sie die Tonerkassette vorsichtig (falls vorgesehen).",
+        "Starten Sie eine Kalibrierung/Reinigung (Menü -> Wartung).",
+        "Drucken Sie eine interne Testseite."
+      ],
+      "notes": [
+        "Bei langsamen Drucken kann es an 'Als Bild drucken' oder dem Treibermodus liegen."
+      ],
+      "support": [
+        "Kontaktieren Sie den Support, wenn die Testseite ebenfalls blass ist oder die Ursache nicht gefunden werden kann."
+      ]
+    },
+    "answer_markdown": "**Kurzlösung:** Überprüfen Sie Tonerstand, rütteln Sie die Tonerkassette und führen Sie eine Kalibrierung durch. Testen Sie eine Testseite.\n\n**Schritte:**\n1. Prüfen Sie den Tonerstand am Gerät.\n2. Rütteln Sie die Tonerkassette vorsichtig (falls vorgesehen).\n3. Starten Sie eine Kalibrierung/Reinigung (Menü -> Wartung).\n4. Drucken Sie eine interne Testseite.\n\n**Hinweise:**\n- Bei langsamen Drucken kann es an 'Als Bild drucken' oder dem Treibermodus liegen.\n\n**Support:**\n- Kontaktieren Sie den Support, wenn die Testseite ebenfalls blass ist oder die Ursache nicht gefunden werden kann.",
+    "supporting_ticket_ids": [
+      "TCK-0603",
+      "TCK-0213",
+      "TCK-0201"
+    ],
+    "llm_model": "gemma3:4b",
+    "llm_error": "",
+    "raw_llm_response": {
+      "question": "Mein Drucker druckt sehr blass oder kaum lesbar / Der Drucker druckt langsam.",
+      "answer": {
+        "short_solution": "Überprüfen Sie Tonerstand, rütteln Sie die Tonerkassette und führen Sie eine Kalibrierung durch. Testen Sie eine Testseite.",
+        "steps": [
+          "Prüfen Sie den Tonerstand am Gerät.",
+          "Rütteln Sie die Tonerkassette vorsichtig (falls vorgesehen).",
+          "Starten Sie eine Kalibrierung/Reinigung (Menü -> Wartung).",
+          "Drucken Sie eine interne Testseite."
+        ],
+        "notes": [
+          "Bei langsamen Drucken kann es an 'Als Bild drucken' oder dem Treibermodus liegen."
+        ],
+        "support": [
+          "Kontaktieren Sie den Support, wenn die Testseite ebenfalls blass ist oder die Ursache nicht gefunden werden kann."
+        ]
+      }
+    }
+  }
+]
